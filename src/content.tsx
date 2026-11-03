@@ -2,31 +2,25 @@ export type Language = 'en' | 'es';
 
 export const copy = {
   en: {
-    nav: { space: 'Space engineering', services: 'Capabilities', work: 'Our work', about: 'Company', contact: 'Contact', action: 'Start a conversation', menu: 'Open navigation', language: 'Español' },
+    nav: { services: 'Capabilities', work: 'Our work', about: 'Company', contact: 'Contact', action: 'Start a conversation', menu: 'Open navigation', language: 'Español' },
     hero: {
       title: <>Systems for<br />critical missions</>,
       description: 'Ascentio designs, develops and operates high-availability systems for aerospace, industrial, energy and telecommunications sectors.',
-      action: 'Explore space engineering',
-    },
-    space: {
-      title: 'Systems for the full mission',
-      intro: 'Since 2008, Ascentio has worked on space engineering and satellite solutions for complex challenges in Earth orbit.',
-      more: 'View the space engineering overview',
-      pathCopy: 'From spacecraft and payload telemetry to ground infrastructure and mission operations, Ascentio develops systems that keep complex missions connected.',
-      items: [
-        ['Mission control centers', 'Real-time telemetry, platform and payload monitoring, secure command and control, alarm management, and high-availability operations.'],
-        ['Science data production', 'High-performance processing, archiving, cataloging and distribution of information captured by satellite instruments.'],
-        ['Mission planning', 'Activity scheduling, resource management and conflict resolution for satellite operations.'],
-        ['Mission simulation', 'Virtual environments for operator training, procedure validation and software testing before in-flight updates.'],
-        ['Systems engineering', 'Requirements management, system design, phase review support, operations design, and verification and validation.'],
-        ['Maritime intelligence', 'Real-time maritime monitoring, computer-vision and AI-driven analysis, and operational control.'],
-      ],
+      action: 'Explore capabilities',
+      milestonesLabel: 'Company milestones',
+      milestones: [['18+', 'Years of experience'], ['High-impact', 'Aerospace projects']],
     },
     services: {
       title: <>Engineering<br />to operation</>,
       intro: 'A connected set of disciplines for complex, high-availability systems.',
-      supporting: 'Hardware, firmware and software development meet testing, deployment, integration, operation and maintenance across the system lifecycle.',
-      items: ['Engineering', 'Hardware and firmware development', 'Software development', 'Testing', 'Deployment and integration', 'Operation and maintenance'],
+      items: [
+        { name: 'Engineering', description: 'Customized engineering solutions through expert analysis, requirements definition, and system design.' },
+        { name: 'Hardware and Firmware Development', description: 'Innovative hardware and firmware solutions developed by specialized teams using agile methodologies.' },
+        { name: 'Software Development', description: 'Tailored software solutions designed to optimize processes and drive business growth.' },
+        { name: 'Testing', description: 'Automated testing and quality assurance to ensure reliable, high-performing solutions.' },
+        { name: 'Deployment and Integration', description: 'Seamless and secure deployments powered by DevOps practices and CI/CD automation.' },
+        { name: 'Operation and Maintenance', description: 'Reliable operations and ongoing maintenance to ensure system continuity and efficiency.' },
+      ],
     },
     history: {
       title: 'Built through mission work',
@@ -43,6 +37,9 @@ export const copy = {
     work: {
       title: 'Technology in operation',
       intro: 'Selected work published by Ascentio across space, energy, telecommunications and maritime monitoring.',
+      publishedLabel: 'Organizations and missions in published work',
+      publishedTitle: 'Organizations and missions',
+      publishedDescription: 'Organizations and missions represented in Ascentio’s published work.',
       cases: [
         { name: 'SABIA MAR', sector: 'Aerospace', description: 'Ground segment development, automated deployments and scalable system upgrades for space exploration.' },
         { name: 'EPEC', sector: 'Energy', description: 'Smart metering solutions integrating remote readings from 70,000 meters.' },
@@ -73,34 +70,25 @@ export const copy = {
     footer: { follow: 'Follow Ascentio', quality: 'View quality mark reference', rights: 'Ascentio Technologies' },
   },
   es: {
-    nav: { space: 'Ingeniería espacial', services: 'Capacidades', work: 'Proyectos', about: 'Empresa', contact: 'Contacto', action: 'Iniciar conversación', menu: 'Abrir navegación', language: 'English' },
+    nav: { services: 'Capacidades', work: 'Proyectos', about: 'Empresa', contact: 'Contacto', action: 'Iniciar conversación', menu: 'Abrir navegación', language: 'English' },
     hero: {
-      kicker: 'Sistemas de misión, diseñados para la continuidad',
       title: <>Sistemas para<br />misiones críticas</>,
       description: 'Ascentio diseña, desarrolla y opera sistemas de alta disponibilidad para los sectores aeroespacial, industrial, energético y de telecomunicaciones.',
-      action: 'Explorar ingeniería espacial',
-      explore: 'Explorar sectores',
-      fallback: 'Ascentio trabaja en los sectores aeroespacial, industrial, energético y de telecomunicaciones.',
-    },
-    space: {
-      title: 'Sistemas para toda la misión',
-      intro: 'Desde 2008, Ascentio trabaja en ingeniería espacial y soluciones satelitales para desafíos complejos en la órbita terrestre.',
-      more: 'Ver el resumen de ingeniería espacial',
-      pathCopy: 'Desde la telemetría de la nave y su carga útil hasta la infraestructura terrestre y las operaciones de misión, Ascentio desarrolla sistemas que mantienen conectadas misiones complejas.',
-      items: [
-        ['Centros de control de misión', 'Telemetría en tiempo real, monitoreo de plataforma y carga útil, comando y control seguro, gestión de alarmas y operaciones de alta disponibilidad.'],
-        ['Centros de producción de datos científicos', 'Procesamiento de alto rendimiento, archivado, catalogación y distribución de información capturada por instrumentos satelitales.'],
-        ['Sistemas de planificación de misiones', 'Programación de actividades, gestión de recursos y resolución de conflictos para operaciones satelitales.'],
-        ['Sistemas de simulación de misiones', 'Entornos virtuales para la capacitación de operadores, validación de procedimientos y pruebas de software antes de actualizaciones en vuelo.'],
-        ['Ingeniería de sistemas', 'Gestión de requisitos, diseño de sistemas, apoyo en revisiones de fase, diseño de operaciones, verificación y validación.'],
-        ['Inteligencia marítima', 'Monitoreo marítimo en tiempo real, análisis con visión por computadora e IA, y control operacional.'],
-      ],
+      action: 'Explorar capacidades',
+      milestonesLabel: 'Hitos de la empresa',
+      milestones: [['18+', 'Años de experiencia'], ['Alto impacto', 'Proyectos aeroespaciales']],
     },
     services: {
       title: <>Ingeniería<br />y operación</>,
       intro: 'Un conjunto integrado de disciplinas para sistemas complejos de alta disponibilidad.',
-      supporting: 'El desarrollo de hardware, firmware y software se integra con pruebas, despliegue, integración, operación y mantenimiento durante el ciclo de vida del sistema.',
-      items: ['Ingeniería', 'Desarrollo de hardware y firmware', 'Desarrollo de software', 'Pruebas', 'Despliegue e integración', 'Operación y mantenimiento'],
+      items: [
+        { name: 'Ingeniería', description: 'Soluciones de ingeniería a medida mediante análisis experto, definición de requisitos y diseño de sistemas.' },
+        { name: 'Desarrollo de hardware y firmware', description: 'Soluciones innovadoras de hardware y firmware desarrolladas por equipos especializados con metodologías ágiles.' },
+        { name: 'Desarrollo de software', description: 'Soluciones de software a medida para optimizar procesos e impulsar el crecimiento del negocio.' },
+        { name: 'Pruebas', description: 'Pruebas automatizadas y aseguramiento de calidad para garantizar soluciones confiables y de alto rendimiento.' },
+        { name: 'Despliegue e integración', description: 'Despliegues seguros y fluidos con prácticas DevOps y automatización CI/CD.' },
+        { name: 'Operación y mantenimiento', description: 'Operación confiable y mantenimiento continuo para garantizar la continuidad y eficiencia del sistema.' },
+      ],
     },
     history: {
       title: 'Experiencia construida en misiones',
@@ -117,6 +105,9 @@ export const copy = {
     work: {
       title: 'Tecnología en operación',
       intro: 'Trabajos publicados por Ascentio en espacio, energía, telecomunicaciones y monitoreo marítimo.',
+      publishedLabel: 'Organizaciones y misiones en trabajos publicados',
+      publishedTitle: 'Organizaciones y misiones',
+      publishedDescription: 'Organizaciones y misiones incluidas en los trabajos publicados por Ascentio.',
       cases: [
         { name: 'SABIA MAR', sector: 'Aeroespacial', description: 'Desarrollo del segmento terreno, despliegues automatizados y actualización escalable de sistemas para la exploración espacial.' },
         { name: 'EPEC', sector: 'Energía', description: 'Soluciones de medición inteligente que integran lecturas remotas de 70.000 medidores.' },

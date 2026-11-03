@@ -1,12 +1,9 @@
 import { useEffect, useMemo, useState, type FormEvent } from "react";
 import { copy, type Content, type Language } from "./content";
 
-const navIds = ["space", "services", "work", "about", "contact"] as const;
+const navIds = ["services", "work", "about", "contact"] as const;
 const assets = {
   orbit: "/images/research/nisar-orbit.jpg",
-  ground: "/images/research/goldstone-dss23.jpg",
-  payload: "/images/research/nisar-payload.jpg",
-  control: "/images/research/apollo-mission-control.jpg",
 };
 
 function Arrow({ diagonal = false }: { diagonal?: boolean }) {
@@ -39,42 +36,6 @@ function Noise() {
   );
 }
 
-function AnimatedBeam() {
-  return (
-    <svg
-      className="mission-beam"
-      viewBox="0 0 1000 250"
-      role="img"
-      aria-labelledby="beam-title beam-desc"
-      preserveAspectRatio="none"
-    >
-      <title id="beam-title">Space mission signal path</title>
-      <desc id="beam-desc">
-        An illustrative path connects a spacecraft, a ground segment and mission
-        operations.
-      </desc>
-      <path
-        className="beam-track"
-        d="M54 182 C220 30 330 50 500 152 S785 227 946 65"
-      />
-      <path
-        className="beam-line"
-        d="M54 182 C220 30 330 50 500 152 S785 227 946 65"
-      />
-      <circle className="beam-node" cx="54" cy="182" r="5" />
-      <circle className="beam-node" cx="500" cy="152" r="5" />
-      <circle className="beam-node" cx="946" cy="65" r="5" />
-      <circle className="beam-pulse" r="4">
-        <animateMotion
-          dur="8s"
-          repeatCount="indefinite"
-          path="M54 182 C220 30 330 50 500 152 S785 227 946 65"
-        />
-      </circle>
-    </svg>
-  );
-}
-
 function Header({
   lang,
   onLanguage,
@@ -86,7 +47,7 @@ function Header({
 }) {
   const [open, setOpen] = useState(false);
   return (
-    <header className="site-header page-width">
+    <header className="site-header">
       <a
         className="wordmark"
         href="#top"
@@ -133,104 +94,38 @@ function Header({
 
 function Hero({ t }: { t: Content }) {
   return (
-    <section className="hero page-width" id="top" aria-labelledby="hero-title">
-      <div className="hero-meta">
-        <span>Argentina · Engineering</span>
-        <span>Córdoba · Río Cuarto · Spain</span>
+    <section className="hero" id="top" aria-labelledby="hero-title">
+      <div className="hero-backdrop" role="img" aria-label="NASA visualization of the NISAR satellite orbiting Earth">
+        <img src={assets.orbit} alt="" fetchPriority="high" />
       </div>
       <div className="hero-main">
         <h1 id="hero-title" className="display">
           {t.hero.title}
         </h1>
         <p className="hero-lede">{t.hero.description}</p>
-      </div>
-      <div className="hero-foot">
-        <span className="scroll-cue">Scroll to explore</span>
-        <a className="hero-link" href="#space">
+        <a className="hero-link" href="#services">
           {t.hero.action}
           <Arrow />
         </a>
       </div>
-    </section>
-  );
-}
-
-function MissionSection({ t }: { t: Content }) {
-  return (
-    <section
-      className="mission-section"
-      id="space"
-      aria-labelledby="space-title"
-    >
-      <Noise />
-      <div className="page-width mission-inner">
-        <div className="mission-heading">
-          <h2 id="space-title">{t.space.title}</h2>
-          <p className="mission-intro">{t.space.intro}</p>
-        </div>
-        <div className="path-labels">
-          <span>Spacecraft</span>
-          <span>Ground segment</span>
-          <span>Mission operations</span>
-        </div>
-        <div className="beam-wrap">
-          <AnimatedBeam />
-        </div>
-        <div className="path-copy">
-          <p>{t.space.pathCopy}</p>
-          <a href="#services" className="line-link">
-            {t.space.more}
-            <Arrow />
-          </a>
-        </div>
-        <div className="mission-capabilities">
-          {t.space.items.map(([title, description]) => (
-            <article key={title} className="mission-capability">
-              <h3>{title}</h3>
-              <p>{description}</p>
-            </article>
+      <div className="hero-bottom">
+        <a
+          className="hero-credit"
+          href="https://commons.wikimedia.org/wiki/File:NISAR_satellite_orbit_(SVS5615_-_2415).jpg"
+          target="_blank"
+          rel="noreferrer"
+        >
+          NISAR orbital visualization · NASA SVS · Public domain
+          <Arrow diagonal />
+        </a>
+        <div className="hero-milestones" aria-label={t.hero.milestonesLabel}>
+          {t.hero.milestones.map(([value, detail]) => (
+            <div className="hero-milestone" key={value}>
+              <strong>{value}</strong>
+              <span>{detail}</span>
+            </div>
           ))}
         </div>
-      </div>
-      <div className="mission-image-band">
-        <figure className="mission-photo mission-photo--wide">
-          <img
-            src={assets.ground}
-            alt="NASA Deep Space Network's Goldstone DSS-23 antenna"
-            loading="lazy"
-            width="1920"
-            height="1439"
-          />
-          <figcaption>
-            <span>Ground network · Goldstone, California</span>
-            <a
-              href="https://commons.wikimedia.org/wiki/File:NASA_Deep_Space_Network%E2%80%99s_New_Goldstone_Antenna_Goes_Online_(PIA26778).jpg"
-              target="_blank"
-              rel="noreferrer"
-            >
-              NASA/JPL-Caltech · Public domain <Arrow diagonal />
-            </a>
-          </figcaption>
-        </figure>
-        <figure className="mission-photo mission-photo--narrow">
-          <img
-            src={assets.orbit}
-            alt="NASA visualization of NISAR in orbit around Earth"
-            loading="lazy"
-            width="1920"
-            height="1080"
-          />
-          <figcaption>
-            <span>Orbital observation · NISAR</span>
-            <a
-              href="https://commons.wikimedia.org/wiki/File:NISAR_satellite_orbit_(SVS5615_-_2415).jpg"
-              target="_blank"
-              rel="noreferrer"
-            >
-              NASA SVS · Public domain <Arrow diagonal />
-            </a>
-          </figcaption>
-        </figure>
       </div>
     </section>
   );
@@ -239,50 +134,42 @@ function MissionSection({ t }: { t: Content }) {
 function ServicesSection({ t }: { t: Content }) {
   return (
     <section
-      className="services-section section-pad"
+      className="services-section"
       id="services"
       aria-labelledby="services-title"
     >
-      <div className="page-width">
-        <div className="section-top">
+      <div className="published-work" role="group" aria-label={t.work.publishedLabel}>
+        <div className="page-width published-work-inner" data-reveal>
+          <div className="published-work-copy">
+            <h2 id="published-work-title">{t.work.publishedTitle}</h2>
+            <p>{t.work.publishedDescription}</p>
+          </div>
+          <div className="published-work-marks" aria-label={t.work.publishedLabel}>
+            {t.work.cases.map((item, index) => (
+              <span className={`work-mark work-mark--${index + 1}`} key={item.name}>
+                {item.name}
+              </span>
+            ))}
+          </div>
+        </div>
+      </div>
+      <div className="page-width section-pad">
+        <div className="section-top" data-reveal>
           <p>{t.services.intro}</p>
         </div>
-        <div className="services-layout">
+        <div className="services-layout" data-reveal>
           <h2 id="services-title">{t.services.title}</h2>
           <ol className="services-list">
-            {t.services.items.map((service) => (
-              <li key={service}>
-                <span>{service}</span>
-                <Arrow />
+            {t.services.items.map((service, index) => (
+              <li key={service.name}>
+                <span className="service-number">0{index + 1}</span>
+                <div className="service-copy">
+                  <h3>{service.name}</h3>
+                  <p>{service.description}</p>
+                </div>
               </li>
             ))}
           </ol>
-        </div>
-        <div className="systems-strip">
-          <figure>
-            <img
-              src={assets.payload}
-              alt="NASA/JPL technicians preparing the NISAR science payload in a cleanroom"
-              width="1920"
-              height="1440"
-              loading="lazy"
-            />
-            <figcaption>
-              <a
-                href="https://commons.wikimedia.org/wiki/File:Preparing_the_NISAR_Science_Payload_for_a_Trip_to_India_(PIA25566).jpg"
-                target="_blank"
-                rel="noreferrer"
-              >
-                NISAR science payload / NASA JPL-Caltech · Public domain{" "}
-                <Arrow diagonal />
-              </a>
-            </figcaption>
-          </figure>
-          <div className="systems-strip-copy">
-            <h3>Systems engineering</h3>
-            <p>{t.services.supporting}</p>
-            <span>Requirements · Integration · Verification</span>
-          </div>
         </div>
       </div>
     </section>
@@ -374,11 +261,11 @@ function AboutSection({ t }: { t: Content }) {
       aria-labelledby="about-title"
     >
       <div className="page-width">
-        <div className="about-lead">
+        <div className="about-lead" data-reveal>
           <h2 id="about-title">{t.about.title}</h2>
           <p>{t.about.intro}</p>
         </div>
-        <div className="principles">
+        <div className="principles" data-reveal>
           {[t.about.mission, t.about.vision, t.about.values].map(
             ([title, detail]) => (
               <article key={title}>
@@ -388,25 +275,6 @@ function AboutSection({ t }: { t: Content }) {
             ),
           )}
         </div>
-        <figure className="history-photo">
-          <img
-            src={assets.control}
-            alt="NASA Mission Operations Control Room during Apollo 9 in March 1969"
-            width="1920"
-            height="1316"
-            loading="lazy"
-          />
-          <figcaption>
-            <span>Mission operations · Apollo 9, 1969</span>
-            <a
-              href="https://commons.wikimedia.org/wiki/File:Mission_Operations_Control_Room_during_Apollo_9.jpg"
-              target="_blank"
-              rel="noreferrer"
-            >
-              NASA · Public domain <Arrow diagonal />
-            </a>
-          </figcaption>
-        </figure>
       </div>
     </section>
   );
@@ -585,6 +453,39 @@ export default function App() {
   useEffect(() => {
     document.documentElement.lang = lang;
   }, [lang]);
+  useEffect(() => {
+    if (
+      window.matchMedia("(prefers-reduced-motion: reduce)").matches ||
+      !("IntersectionObserver" in window)
+    ) {
+      return;
+    }
+
+    const targets = Array.from(
+      document.querySelectorAll<HTMLElement>("[data-reveal]"),
+    );
+    if (!targets.length) return;
+
+    targets.forEach((target) => {
+      target.dataset.revealState = "pending";
+    });
+    document.documentElement.classList.add("has-reveal");
+
+    const observer = new IntersectionObserver(
+      (entries, currentObserver) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting && entry.target instanceof HTMLElement) {
+            entry.target.dataset.revealState = "visible";
+            currentObserver.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.12, rootMargin: "0px 0px -32px 0px" },
+    );
+
+    targets.forEach((target) => observer.observe(target));
+    return () => observer.disconnect();
+  }, []);
   return (
     <>
       <a className="skip-link" href="#main">
@@ -597,7 +498,6 @@ export default function App() {
       />
       <main id="main">
         <Hero t={t} />
-        <MissionSection t={t} />
         <ServicesSection t={t} />
         <HistorySection t={t} />
         <WorkSection lang={lang} t={t} />
