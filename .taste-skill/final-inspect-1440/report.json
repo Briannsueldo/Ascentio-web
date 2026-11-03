@@ -1,0 +1,914 @@
+{
+ "url": "http://127.0.0.1:4175/",
+ "at": "2026-10-31T00:59:33.552Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 11,
+   "filled": [
+    0.28,
+    1,
+    1,
+    0.51,
+    0.37,
+    0.93,
+    1,
+    1,
+    1,
+    0.98,
+    0.99
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 9634,
+     "screens": 10.7,
+     "words": 588,
+     "img": 4,
+     "video": 0,
+     "canvas": 0,
+     "svg": 31,
+     "sections": 7,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 4,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "goldstone-dss23.jpg",
+      "nisar-orbit.jpg",
+      "nisar-payload.jpg",
+      "apollo-mission-control.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Systems for critical missions",
+     "words": 4,
+     "chars": 29,
+     "lines": 2,
+     "size": 149,
+     "vw": 10.3,
+     "font": "Chivo",
+     "weight": 500,
+     "tracking": -0.085,
+     "leading": 0.87,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "right",
+     "widthRatio": 0.72,
+     "top": 297,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Systems for critical missions",
+     "words": 4,
+     "lines": 2,
+     "size": 149,
+     "font": "Chivo"
+    },
+    "headings": [
+     {
+      "text": "Systems for critical missions",
+      "words": 4,
+      "chars": 29,
+      "lines": 2,
+      "size": 149,
+      "vw": 10.3,
+      "font": "Chivo",
+      "weight": 500,
+      "tracking": -0.085,
+      "leading": 0.87,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.72,
+      "top": 297,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Systems for the full mission",
+      "words": 5,
+      "chars": 28,
+      "lines": 2,
+      "size": 90,
+      "vw": 6.3,
+      "font": "Chivo",
+      "weight": 450,
+      "tracking": -0.07,
+      "leading": 0.96,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.45,
+      "top": 1062,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Engineering to operation",
+      "words": 3,
+      "chars": 24,
+      "lines": 2,
+      "size": 100,
+      "vw": 6.9,
+      "font": "Chivo",
+      "weight": 450,
+      "tracking": -0.075,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.36,
+      "top": 3325,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Hardware, firmware and software development meet testing, deployment, integration, operation and maintenance across the system lifecycle.",
+      "words": 16,
+      "chars": 137,
+      "lines": 5,
+      "size": 34,
+      "vw": 2.4,
+      "font": "Chivo",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.38,
+      "top": 4040,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Built through mission work",
+      "words": 4,
+      "chars": 26,
+      "lines": 2,
+      "size": 100,
+      "vw": 6.9,
+      "font": "Chivo",
+      "weight": 450,
+      "tracking": -0.075,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.53,
+      "top": 4735,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Technology in operation",
+      "words": 3,
+      "chars": 23,
+      "lines": 2,
+      "size": 90,
+      "vw": 6.3,
+      "font": "Chivo",
+      "weight": 450,
+      "tracking": -0.075,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.53,
+      "top": 6096,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "A company built for continuity",
+      "words": 5,
+      "chars": 30,
+      "lines": 2,
+      "size": 92,
+      "vw": 6.4,
+      "font": "Chivo",
+      "weight": 450,
+      "tracking": -0.075,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.53,
+      "top": 7099,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "contacto@ascentio.com.ar",
+      "words": 1,
+      "chars": 24,
+      "lines": 1,
+      "size": 62,
+      "vw": 4.3,
+      "font": "Chivo",
+      "weight": 400,
+      "tracking": -0.055,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.52,
+      "top": 8772,
+      "tag": "a",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 8,
+     "maxLines": 5,
+     "over2Lines": 0,
+     "statements": 1,
+     "centered": 0,
+     "medianWords": 4,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Chivo",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      8,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      20,
+      25,
+      27,
+      34,
+      62,
+      90,
+      92,
+      100,
+      149
+     ],
+     "sizeCount": 17,
+     "notLoaded": [],
+     "body": {
+      "font": "Chivo",
+      "size": 14,
+      "leading": 1.65,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 11.8
+     },
+     "measureChars": 55,
+     "max": {
+      "size": 149,
+      "vw": 10.3,
+      "font": "Chivo",
+      "text": "Systems forcritical missions"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 7,
+     "microLabelShare": 0.015,
+     "microSamples": [
+      "2008",
+      "Mission",
+      "Missions",
+      "Belgium · Luxembourg",
+      "2025",
+      "Upcoming"
+     ],
+     "upperShare": 0.06,
+     "centerShare": 0,
+     "smallText": 35
+    },
+    "eyebrows": [
+     {
+      "text": "Systems engineering",
+      "above": "Hardware, firmware and software developm",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 13,
+      "top": 4001
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f5f5f5",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 0.96
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#050505",
+       "top": 898,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.02
+       }
+      },
+      {
+       "color": "#0d0d0d",
+       "top": 2327,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.05
+       }
+      },
+      {
+       "color": "#f5f5f5",
+       "top": 3034,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.96
+       }
+      },
+      {
+       "color": "#e9e9e9",
+       "top": 4563,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.91
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 5923,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#111111",
+       "top": 6926,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.07
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#c5c5c5",
+       "share": 0.24
+      },
+      {
+       "color": "#555555",
+       "share": 0.17
+      },
+      {
+       "color": "#aaaaaa",
+       "share": 0.14
+      },
+      {
+       "color": "#111111",
+       "share": 0.12
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.1
+      }
+     ],
+     "button": {
+      "bg": "#ffffff",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 1
+      },
+      "fg": "#050505"
+     },
+     "lowContrast": [
+      {
+       "text": "2008",
+       "ratio": 3.7,
+       "need": 4.5,
+       "size": 10,
+       "fg": "#777777",
+       "bg": "#e9e9e9"
+      },
+      {
+       "text": "Mission",
+       "ratio": 3.7,
+       "need": 4.5,
+       "size": 10,
+       "fg": "#777777",
+       "bg": "#e9e9e9"
+      },
+      {
+       "text": "Missions",
+       "ratio": 3.7,
+       "need": 4.5,
+       "size": 10,
+       "fg": "#777777",
+       "bg": "#e9e9e9"
+      },
+      {
+       "text": "Belgium · Luxembourg",
+       "ratio": 3.7,
+       "need": 4.5,
+       "size": 10,
+       "fg": "#777777",
+       "bg": "#e9e9e9"
+      },
+      {
+       "text": "A connected set of disciplines for compl",
+       "ratio": 4.1,
+       "need": 4.5,
+       "size": 13,
+       "fg": "#777777",
+       "bg": "#f5f5f5"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 1,
+     "radius": 0,
+     "height": 52,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to content"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 4,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 7,
+     "fixed": false,
+     "height": 88,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "chivo"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 9634,
+    "margins": {
+     "left": 80,
+     "right": 80
+    },
+    "sections": [
+     {
+      "sel": "section#top.hero.page-width",
+      "tag": "section",
+      "top": 88,
+      "height": 810,
+      "words": 39,
+      "media": 0,
+      "middle": 93,
+      "heading": {
+       "text": "Systems for",
+       "size": 149,
+       "tag": "h1"
+      },
+      "left": 80,
+      "right": 80,
+      "textLeft": 80,
+      "textRight": 80,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.noise",
+      "tag": "div",
+      "top": 898,
+      "height": 2136,
+      "words": 0,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": null,
+      "right": null,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.page-width.mission-inner",
+      "tag": "div",
+      "top": 1071,
+      "height": 1256,
+      "words": 162,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "From spacecraft and payload telemetry to ground in",
+       "size": 27,
+       "tag": "p"
+      },
+      "left": 67,
+      "right": 67,
+      "textLeft": 80,
+      "textRight": 108,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.mission-image-band",
+      "tag": "div",
+      "top": 2327,
+      "height": 707,
+      "words": 18,
+      "media": 2,
+      "middle": 43,
+      "heading": null,
+      "left": 80,
+      "right": 80,
+      "textLeft": 80,
+      "textRight": 98,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#services.services-section.section-pad",
+      "tag": "section",
+      "top": 3034,
+      "height": 1528,
+      "words": 67,
+      "media": 1,
+      "middle": 43,
+      "heading": {
+       "text": "Engineering",
+       "size": 100,
+       "tag": "h2"
+      },
+      "left": 80,
+      "right": 112,
+      "textLeft": 80,
+      "textRight": 112,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.history-section.section-pad",
+      "tag": "section",
+      "top": 4563,
+      "height": 1361,
+      "words": 109,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Built through mission work",
+       "size": 100,
+       "tag": "h2"
+      },
+      "left": 80,
+      "right": 82,
+      "textLeft": 80,
+      "textRight": 82,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#work.work-section.section-pad",
+      "tag": "section",
+      "top": 5923,
+      "height": 1003,
+      "words": 51,
+      "media": 0,
+      "middle": 154,
+      "heading": {
+       "text": "Technology in operation",
+       "size": 90,
+       "tag": "h2"
+      },
+      "left": 80,
+      "right": 106,
+      "textLeft": 80,
+      "textRight": 106,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#about.about-section.section-pad",
+      "tag": "section",
+      "top": 6926,
+      "height": 1524,
+      "words": 118,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "A company built for continuity",
+       "size": 92,
+       "tag": "h2"
+      },
+      "left": 80,
+      "right": 80,
+      "textLeft": 80,
+      "textRight": 87,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.contact-section.section-pad",
+      "tag": "section",
+      "top": 8450,
+      "height": 964,
+      "words": 70,
+      "media": 1,
+      "middle": 90,
+      "heading": {
+       "text": "contacto@ascentio.com.ar",
+       "size": 62,
+       "tag": "a"
+      },
+      "left": 80,
+      "right": 80,
+      "textLeft": 80,
+      "textRight": 409,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.site-footer",
+      "tag": "footer",
+      "top": 9413,
+      "height": 221,
+      "words": 19,
+      "media": 0,
+      "middle": 492,
+      "heading": null,
+      "left": 80,
+      "right": 80,
+      "textLeft": 80,
+      "textRight": 80,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 4392,
+      "height": 328
+     },
+     {
+      "top": 5720,
+      "height": 360
+     },
+     {
+      "top": 6756,
+      "height": 328
+     }
+    ],
+    "h1s": [
+     {
+      "text": "Systems for critical missions",
+      "size": 149,
+      "top": 297,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 80,
+      "n": 15
+     },
+     {
+      "x": 537,
+      "n": 6
+     },
+     {
+      "x": 993,
+      "n": 6
+     },
+     {
+      "x": 317,
+      "n": 3
+     },
+     {
+      "x": 948,
+      "n": 3
+     },
+     {
+      "x": 909,
+      "n": 2
+     },
+     {
+      "x": 807,
+      "n": 1
+     },
+     {
+      "x": 977,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 37,
+    "bodySize": 14,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.15,
+    "voidBox": {
+     "x": 0,
+     "y": 180,
+     "w": 300,
+     "h": 660
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "statement-length",
+   "width": 1440,
+   "message": "1 large-set statement(s) run past 3 lines at 1440px: \"Hardware, firmware and software developm…\" → 5 lines at 34px",
+   "fix": "A statement set large is about 30 words. Cut it, or set the rest as ordinary body text."
+  },
+  {
+   "level": "FAIL",
+   "id": "eyebrow",
+   "width": 1440,
+   "message": "1 eyebrow/kicker label(s) above headings: \"Systems engineering\" above \"Hardware, firmware and software developm\"",
+   "fix": "Delete them. If the label carried real information, fold it into the headline or the supporting sentence."
+  },
+  {
+   "level": "FAIL",
+   "id": "micro-label",
+   "width": 1440,
+   "message": "7 tiny uppercase letter-spaced labels (e.g. \"2008\", \"Mission\", \"Missions\", \"Belgium · Luxembourg\").",
+   "fix": "Use sentence-case text at a readable size, or delete the label."
+  },
+  {
+   "level": "WARN",
+   "id": "contrast",
+   "width": 1440,
+   "message": "Low-contrast text: \"2008\" 3.7:1 needs 4.5:1; \"Mission\" 3.7:1 needs 4.5:1; \"Missions\" 3.7:1 needs 4.5:1; \"Belgium · Luxembourg\" 3.7:1 needs 4.5:1",
+   "fix": "Darken or lighten the text colour."
+  },
+  {
+   "level": "WARN",
+   "id": "size-count",
+   "width": 1440,
+   "message": "17 different font sizes (8, 10, 11, 12, 13, 14, 15, 16, 20, 25, 27, 34, 62, 90, 92, 100, 149).",
+   "fix": "A page needs about five: display, heading, lead, body, small."
+  },
+  {
+   "level": "FAIL",
+   "id": "body-size",
+   "width": 1440,
+   "message": "Body text is 14px (the size most of the running text is set in).",
+   "fix": "Body copy 16–20px. Map small sizes from blueprints onto your body step."
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "FAIL",
+   "id": "small-text",
+   "width": 1440,
+   "message": "35 text blocks under 13px.",
+   "fix": "Nothing meant to be read goes below 13px."
+  },
+  {
+   "level": "FAIL",
+   "id": "still-page",
+   "width": 1440,
+   "message": "Only 0 element(s) moved while the page loaded and scrolled.",
+   "fix": "Build the motion layer (SKILL.md step 9, references/motion.md): the signature move, an entrance for the parts of every section, feedback on every control, and one moving picture. Transform and opacity only, with a reduced-motion fallback."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "/home/brian/Desktop/Ascentio/.taste-skill/final-inspect-1440/desktop-fold.jpg",
+   "pages": [
+    "/home/brian/Desktop/Ascentio/.taste-skill/final-inspect-1440/desktop-page-01.jpg",
+    "/home/brian/Desktop/Ascentio/.taste-skill/final-inspect-1440/desktop-page-02.jpg",
+    "/home/brian/Desktop/Ascentio/.taste-skill/final-inspect-1440/desktop-page-03.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

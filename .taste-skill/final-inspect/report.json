@@ -1,0 +1,3596 @@
+{
+ "url": "http://127.0.0.1:4175/",
+ "at": "2026-10-31T00:56:24.457Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.28,
+    1,
+    1,
+    0.59,
+    0.35,
+    0.76,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 12001,
+     "screens": 13.3,
+     "words": 588,
+     "img": 4,
+     "video": 0,
+     "canvas": 0,
+     "svg": 31,
+     "sections": 7,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 4,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "goldstone-dss23.jpg",
+      "nisar-orbit.jpg",
+      "nisar-payload.jpg",
+      "apollo-mission-control.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Systems for critical missions",
+     "words": 4,
+     "chars": 29,
+     "lines": 2,
+     "size": 149,
+     "vw": 10.3,
+     "font": "Chivo",
+     "weight": 500,
+     "tracking": -0.085,
+     "leading": 0.87,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "right",
+     "widthRatio": 0.72,
+     "top": 297,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Systems for critical missions",
+     "words": 4,
+     "lines": 2,
+     "size": 149,
+     "font": "Chivo"
+    },
+    "headings": [
+     {
+      "text": "Systems for critical missions",
+      "words": 4,
+      "chars": 29,
+      "lines": 2,
+      "size": 149,
+      "vw": 10.3,
+      "font": "Chivo",
+      "weight": 500,
+      "tracking": -0.085,
+      "leading": 0.87,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.72,
+      "top": 297,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Systems for the full mission",
+      "words": 5,
+      "chars": 28,
+      "lines": 4,
+      "size": 90,
+      "vw": 6.3,
+      "font": "Chivo",
+      "weight": 450,
+      "tracking": -0.07,
+      "leading": 0.96,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.26,
+      "top": 1062,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Engineering to operation",
+      "words": 3,
+      "chars": 24,
+      "lines": 2,
+      "size": 100,
+      "vw": 6.9,
+      "font": "Chivo",
+      "weight": 450,
+      "tracking": -0.075,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.36,
+      "top": 3500,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Hardware, firmware and software development meet testing, deployment, integration, operation and maintenance across the system lifecycle.",
+      "words": 16,
+      "chars": 137,
+      "lines": 5,
+      "size": 34,
+      "vw": 2.4,
+      "font": "Chivo",
+      "weight": 400,
+      "tracking": -0.045,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.35,
+      "top": 4218,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Built through mission work",
+      "words": 4,
+      "chars": 26,
+      "lines": 4,
+      "size": 88,
+      "vw": 6.1,
+      "font": "Chivo",
+      "weight": 450,
+      "tracking": -0.075,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.24,
+      "top": 4911,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Technology in operation",
+      "words": 3,
+      "chars": 23,
+      "lines": 3,
+      "size": 90,
+      "vw": 6.3,
+      "font": "Chivo",
+      "weight": 450,
+      "tracking": -0.075,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.29,
+      "top": 7805,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "SABIA MAR",
+      "words": 2,
+      "chars": 9,
+      "lines": 1,
+      "size": 55,
+      "vw": 3.8,
+      "font": "Chivo",
+      "weight": 450,
+      "tracking": -0.065,
+      "leading": 1.5,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.31,
+      "top": 8318,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "A company built for continuity",
+      "words": 5,
+      "chars": 30,
+      "lines": 4,
+      "size": 92,
+      "vw": 6.4,
+      "font": "Chivo",
+      "weight": 450,
+      "tracking": -0.075,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.26,
+      "top": 9026,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Talk to Ascentio",
+      "words": 3,
+      "chars": 16,
+      "lines": 2,
+      "size": 140,
+      "vw": 9.7,
+      "font": "Chivo",
+      "weight": 450,
+      "tracking": -0.085,
+      "leading": 0.84,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.63,
+      "top": 10769,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "contacto@ascentio.com.ar",
+      "words": 1,
+      "chars": 24,
+      "lines": 1,
+      "size": 62,
+      "vw": 4.3,
+      "font": "Chivo",
+      "weight": 400,
+      "tracking": -0.055,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.52,
+      "top": 11108,
+      "tag": "a",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 10,
+     "maxLines": 5,
+     "over2Lines": 4,
+     "statements": 1,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Chivo",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      8,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      20,
+      25,
+      27,
+      34,
+      55,
+      62,
+      88,
+      90,
+      92,
+      100,
+      140,
+      149
+     ],
+     "sizeCount": 20,
+     "notLoaded": [],
+     "body": {
+      "font": "Chivo",
+      "size": 14,
+      "leading": 1.65,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 11.8
+     },
+     "measureChars": 70,
+     "max": {
+      "size": 149,
+      "vw": 10.3,
+      "font": "Chivo",
+      "text": "Systems forcritical missions"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 7,
+     "microLabelShare": 0.015,
+     "microSamples": [
+      "2008",
+      "Mission",
+      "Missions",
+      "Belgium · Luxembourg",
+      "2025",
+      "Upcoming"
+     ],
+     "upperShare": 0.07,
+     "centerShare": 0,
+     "smallText": 34
+    },
+    "eyebrows": [
+     {
+      "text": "Systems engineering",
+      "above": "Hardware, firmware and software developm",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 16,
+      "top": 4170
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f5f5f5",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 0.96
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#050505",
+       "top": 898,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.02
+       }
+      },
+      {
+       "color": "#0d0d0d",
+       "top": 2503,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.05
+       }
+      },
+      {
+       "color": "#f5f5f5",
+       "top": 3210,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.96
+       }
+      },
+      {
+       "color": "#e9e9e9",
+       "top": 4738,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.91
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 7632,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#111111",
+       "top": 8853,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.07
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#c5c5c5",
+       "share": 0.24
+      },
+      {
+       "color": "#555555",
+       "share": 0.16
+      },
+      {
+       "color": "#aaaaaa",
+       "share": 0.15
+      },
+      {
+       "color": "#111111",
+       "share": 0.13
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.08
+      }
+     ],
+     "button": {
+      "bg": "#ffffff",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 1
+      },
+      "fg": "#050505"
+     },
+     "lowContrast": [
+      {
+       "text": "2008",
+       "ratio": 3.7,
+       "need": 4.5,
+       "size": 10,
+       "fg": "#777777",
+       "bg": "#e9e9e9"
+      },
+      {
+       "text": "A connected set of disciplines for compl",
+       "ratio": 4.1,
+       "need": 4.5,
+       "size": 13,
+       "fg": "#777777",
+       "bg": "#f5f5f5"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 1,
+     "radius": 0,
+     "height": 52,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to content"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 41,
+     "hairlineSamples": [
+      "header.site-header.page-width 1440px",
+      "div.hero-foot 1043px",
+      "div.path-copy 1280px",
+      "article.mission-capability 367px",
+      "article.mission-capability 367px"
+     ],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 4,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 6,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 2018
+      },
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 9462
+      }
+     ]
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 7,
+     "fixed": false,
+     "height": 88,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "chivo"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 12001,
+    "margins": {
+     "left": 80,
+     "right": 80
+    },
+    "sections": [
+     {
+      "sel": "section#top.hero.page-width",
+      "tag": "section",
+      "top": 88,
+      "height": 810,
+      "words": 39,
+      "media": 0,
+      "middle": 93,
+      "heading": {
+       "text": "Systems for",
+       "size": 149,
+       "tag": "h1"
+      },
+      "left": 80,
+      "right": 80,
+      "textLeft": 80,
+      "textRight": 80,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.noise",
+      "tag": "div",
+      "top": 898,
+      "height": 2312,
+      "words": 0,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": null,
+      "right": null,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.page-width.mission-inner",
+      "tag": "div",
+      "top": 1071,
+      "height": 1432,
+      "words": 162,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 67,
+      "right": 67,
+      "textLeft": 80,
+      "textRight": 108,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.mission-image-band",
+      "tag": "div",
+      "top": 2503,
+      "height": 707,
+      "words": 18,
+      "media": 2,
+      "middle": 43,
+      "heading": null,
+      "left": 80,
+      "right": 80,
+      "textLeft": 80,
+      "textRight": 98,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#services.services-section.section-pad",
+      "tag": "section",
+      "top": 3210,
+      "height": 1528,
+      "words": 67,
+      "media": 1,
+      "middle": 43,
+      "heading": {
+       "text": "Engineering",
+       "size": 100,
+       "tag": "h2"
+      },
+      "left": 80,
+      "right": 162,
+      "textLeft": 80,
+      "textRight": 162,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.history-section.section-pad",
+      "tag": "section",
+      "top": 4738,
+      "height": 2894,
+      "words": 109,
+      "media": 0,
+      "middle": 115,
+      "heading": {
+       "text": "Built through mission work",
+       "size": 88,
+       "tag": "h2"
+      },
+      "left": 80,
+      "right": 451,
+      "textLeft": 80,
+      "textRight": 451,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#work.work-section.section-pad",
+      "tag": "section",
+      "top": 7632,
+      "height": 1221,
+      "words": 51,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Technology in operation",
+       "size": 90,
+       "tag": "h2"
+      },
+      "left": 80,
+      "right": 108,
+      "textLeft": 80,
+      "textRight": 108,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#about.about-section.section-pad",
+      "tag": "section",
+      "top": 8853,
+      "height": 1691,
+      "words": 118,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "A company built for continuity",
+       "size": 92,
+       "tag": "h2"
+      },
+      "left": 80,
+      "right": 80,
+      "textLeft": 80,
+      "textRight": 98,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.contact-section.section-pad",
+      "tag": "section",
+      "top": 10544,
+      "height": 1234,
+      "words": 70,
+      "media": 1,
+      "middle": 90,
+      "heading": {
+       "text": "Talk to",
+       "size": 140,
+       "tag": "h2"
+      },
+      "left": 80,
+      "right": 80,
+      "textLeft": 80,
+      "textRight": 409,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.site-footer",
+      "tag": "footer",
+      "top": 11778,
+      "height": 223,
+      "words": 19,
+      "media": 0,
+      "middle": 492,
+      "heading": null,
+      "left": 80,
+      "right": 80,
+      "textLeft": 80,
+      "textRight": 80,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 4568,
+      "height": 328
+     },
+     {
+      "top": 7428,
+      "height": 360
+     },
+     {
+      "top": 8684,
+      "height": 328
+     }
+    ],
+    "h1s": [
+     {
+      "text": "Systems for critical missions",
+      "size": 149,
+      "top": 297,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 80,
+      "n": 15
+     },
+     {
+      "x": 537,
+      "n": 6
+     },
+     {
+      "x": 993,
+      "n": 6
+     },
+     {
+      "x": 317,
+      "n": 3
+     },
+     {
+      "x": 480,
+      "n": 2
+     },
+     {
+      "x": 807,
+      "n": 2
+     },
+     {
+      "x": 909,
+      "n": 2
+     },
+     {
+      "x": 504,
+      "n": 1
+     },
+     {
+      "x": 552,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 38,
+    "bodySize": 14,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.15,
+    "voidBox": {
+     "x": 0,
+     "y": 180,
+     "w": 300,
+     "h": 660
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 1280,
+   "height": 800,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.28,
+    1,
+    1,
+    0.74,
+    0.26,
+    0.68,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1280,
+     "h": 800
+    },
+    "page": {
+     "height": 11426,
+     "screens": 14.3,
+     "words": 588,
+     "img": 4,
+     "video": 0,
+     "canvas": 0,
+     "svg": 31,
+     "sections": 7,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 4,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "goldstone-dss23.jpg",
+      "nisar-orbit.jpg",
+      "nisar-payload.jpg",
+      "apollo-mission-control.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Systems for critical missions",
+     "words": 4,
+     "chars": 29,
+     "lines": 2,
+     "size": 132.5,
+     "vw": 10.4,
+     "font": "Chivo",
+     "weight": 500,
+     "tracking": -0.085,
+     "leading": 0.87,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "right",
+     "widthRatio": 0.72,
+     "top": 264,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Systems for critical missions",
+     "words": 4,
+     "lines": 2,
+     "size": 132.5,
+     "font": "Chivo"
+    },
+    "headings": [
+     {
+      "text": "Systems for critical missions",
+      "words": 4,
+      "chars": 29,
+      "lines": 2,
+      "size": 132.5,
+      "vw": 10.4,
+      "font": "Chivo",
+      "weight": 500,
+      "tracking": -0.085,
+      "leading": 0.87,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.72,
+      "top": 264,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Systems for the full mission",
+      "words": 5,
+      "chars": 28,
+      "lines": 4,
+      "size": 84.5,
+      "vw": 6.6,
+      "font": "Chivo",
+      "weight": 450,
+      "tracking": -0.07,
+      "leading": 0.96,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.26,
+      "top": 945,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "From spacecraft and payload telemetry to ground infrastructure and mission operations, Ascentio develops systems that keep complex missions connected.",
+      "words": 19,
+      "chars": 150,
+      "lines": 4,
+      "size": 27,
+      "vw": 2.1,
+      "font": "Chivo",
+      "weight": 400,
+      "tracking": -0.025,
+      "leading": 1.4,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.45,
+      "top": 1606,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Engineering to operation",
+      "words": 3,
+      "chars": 24,
+      "lines": 2,
+      "size": 90.9,
+      "vw": 7.1,
+      "font": "Chivo",
+      "weight": 450,
+      "tracking": -0.075,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.36,
+      "top": 3278,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Hardware, firmware and software development meet testing, deployment, integration, operation and maintenance across the system lifecycle.",
+      "words": 16,
+      "chars": 137,
+      "lines": 5,
+      "size": 30.7,
+      "vw": 2.4,
+      "font": "Chivo",
+      "weight": 400,
+      "tracking": -0.045,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.38,
+      "top": 3958,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Built through mission work",
+      "words": 4,
+      "chars": 26,
+      "lines": 4,
+      "size": 81.9,
+      "vw": 6.4,
+      "font": "Chivo",
+      "weight": 450,
+      "tracking": -0.075,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.24,
+      "top": 4578,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Technology in operation",
+      "words": 3,
+      "chars": 23,
+      "lines": 3,
+      "size": 83.2,
+      "vw": 6.5,
+      "font": "Chivo",
+      "weight": 450,
+      "tracking": -0.075,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.3,
+      "top": 7412,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "SABIA MAR",
+      "words": 2,
+      "chars": 9,
+      "lines": 1,
+      "size": 53.8,
+      "vw": 4.2,
+      "font": "Chivo",
+      "weight": 450,
+      "tracking": -0.065,
+      "leading": 1.5,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.31,
+      "top": 7908,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "A company built for continuity",
+      "words": 5,
+      "chars": 30,
+      "lines": 4,
+      "size": 85.8,
+      "vw": 6.7,
+      "font": "Chivo",
+      "weight": 450,
+      "tracking": -0.075,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.27,
+      "top": 8576,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Talk to Ascentio",
+      "words": 3,
+      "chars": 16,
+      "lines": 2,
+      "size": 128,
+      "vw": 10,
+      "font": "Chivo",
+      "weight": 450,
+      "tracking": -0.085,
+      "leading": 0.84,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.7,
+      "top": 10220,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "contacto@ascentio.com.ar",
+      "words": 1,
+      "chars": 24,
+      "lines": 1,
+      "size": 56.3,
+      "vw": 4.4,
+      "font": "Chivo",
+      "weight": 400,
+      "tracking": -0.055,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.54,
+      "top": 10539,
+      "tag": "a",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 11,
+     "maxLines": 5,
+     "over2Lines": 4,
+     "statements": 2,
+     "centered": 0,
+     "medianWords": 4,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Chivo",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      8,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      19,
+      20,
+      25,
+      27,
+      31,
+      54,
+      56,
+      82,
+      83,
+      85,
+      86,
+      91,
+      128,
+      133
+     ],
+     "sizeCount": 22,
+     "notLoaded": [],
+     "body": {
+      "font": "Chivo",
+      "size": 14,
+      "leading": 1.65,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 11.8
+     },
+     "measureChars": 61,
+     "max": {
+      "size": 132.5,
+      "vw": 10.4,
+      "font": "Chivo",
+      "text": "Systems forcritical missions"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 7,
+     "microLabelShare": 0.015,
+     "microSamples": [
+      "2008",
+      "Mission",
+      "Missions",
+      "Belgium · Luxembourg",
+      "2025",
+      "Upcoming"
+     ],
+     "upperShare": 0.07,
+     "centerShare": 0,
+     "smallText": 34
+    },
+    "eyebrows": [
+     {
+      "text": "Córdoba · Río Cuarto · Spain",
+      "above": "Systems for critical missions",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 111
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f5f5f5",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 0.96
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#050505",
+       "top": 800,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.02
+       }
+      },
+      {
+       "color": "#0d0d0d",
+       "top": 2365,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.05
+       }
+      },
+      {
+       "color": "#f5f5f5",
+       "top": 3007,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.96
+       }
+      },
+      {
+       "color": "#e9e9e9",
+       "top": 4425,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.91
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 7258,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#111111",
+       "top": 8423,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.07
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#c5c5c5",
+       "share": 0.24
+      },
+      {
+       "color": "#555555",
+       "share": 0.16
+      },
+      {
+       "color": "#aaaaaa",
+       "share": 0.15
+      },
+      {
+       "color": "#111111",
+       "share": 0.13
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.08
+      }
+     ],
+     "button": {
+      "bg": "#ffffff",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 1
+      },
+      "fg": "#050505"
+     },
+     "lowContrast": [
+      {
+       "text": "A connected set of disciplines for compl",
+       "ratio": 4.1,
+       "need": 4.5,
+       "size": 13,
+       "fg": "#777777",
+       "bg": "#f5f5f5"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 1,
+     "radius": 0,
+     "height": 52,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to content"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 41,
+     "hairlineSamples": [
+      "header.site-header.page-width 1280px",
+      "div.hero-foot 927px",
+      "div.path-copy 1138px",
+      "article.mission-capability 326px",
+      "article.mission-capability 326px"
+     ],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 4,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 6,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 1881
+      },
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 8990
+      }
+     ]
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 7,
+     "fixed": false,
+     "height": 88,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "chivo"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1280,
+     "h": 800
+    },
+    "pageH": 11426,
+    "margins": {
+     "left": 71,
+     "right": 71
+    },
+    "sections": [
+     {
+      "sel": "section#top.hero.page-width",
+      "tag": "section",
+      "top": 88,
+      "height": 712,
+      "words": 39,
+      "media": 0,
+      "middle": 66,
+      "heading": {
+       "text": "Systems for",
+       "size": 132,
+       "tag": "h1"
+      },
+      "left": 71,
+      "right": 71,
+      "textLeft": 71,
+      "textRight": 71,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.noise",
+      "tag": "div",
+      "top": 800,
+      "height": 2207,
+      "words": 0,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": null,
+      "right": null,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.page-width.mission-inner",
+      "tag": "div",
+      "top": 954,
+      "height": 1411,
+      "words": 162,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 60,
+      "right": 60,
+      "textLeft": 71,
+      "textRight": 77,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.mission-image-band",
+      "tag": "div",
+      "top": 2365,
+      "height": 642,
+      "words": 18,
+      "media": 2,
+      "middle": 38,
+      "heading": null,
+      "left": 71,
+      "right": 71,
+      "textLeft": 71,
+      "textRight": 89,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#services.services-section.section-pad",
+      "tag": "section",
+      "top": 3007,
+      "height": 1418,
+      "words": 67,
+      "media": 1,
+      "middle": 38,
+      "heading": {
+       "text": "Engineering",
+       "size": 91,
+       "tag": "h2"
+      },
+      "left": 71,
+      "right": 82,
+      "textLeft": 71,
+      "textRight": 82,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.history-section.section-pad",
+      "tag": "section",
+      "top": 4425,
+      "height": 2834,
+      "words": 109,
+      "media": 0,
+      "middle": 90,
+      "heading": {
+       "text": "Built through mission work",
+       "size": 82,
+       "tag": "h2"
+      },
+      "left": 71,
+      "right": 406,
+      "textLeft": 71,
+      "textRight": 406,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#work.work-section.section-pad",
+      "tag": "section",
+      "top": 7258,
+      "height": 1164,
+      "words": 51,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Technology in operation",
+       "size": 83,
+       "tag": "h2"
+      },
+      "left": 71,
+      "right": 79,
+      "textLeft": 71,
+      "textRight": 79,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#about.about-section.section-pad",
+      "tag": "section",
+      "top": 8423,
+      "height": 1589,
+      "words": 118,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "A company built for continuity",
+       "size": 86,
+       "tag": "h2"
+      },
+      "left": 71,
+      "right": 71,
+      "textLeft": 71,
+      "textRight": 76,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.contact-section.section-pad",
+      "tag": "section",
+      "top": 10012,
+      "height": 1192,
+      "words": 70,
+      "media": 1,
+      "middle": 66,
+      "heading": {
+       "text": "Talk to",
+       "size": 128,
+       "tag": "h2"
+      },
+      "left": 71,
+      "right": 71,
+      "textLeft": 71,
+      "textRight": 347,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.site-footer",
+      "tag": "footer",
+      "top": 11203,
+      "height": 223,
+      "words": 19,
+      "media": 0,
+      "middle": 421,
+      "heading": null,
+      "left": 71,
+      "right": 71,
+      "textLeft": 71,
+      "textRight": 71,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 4272,
+      "height": 292
+     },
+     {
+      "top": 7076,
+      "height": 320
+     },
+     {
+      "top": 8272,
+      "height": 288
+     }
+    ],
+    "h1s": [
+     {
+      "text": "Systems for critical missions",
+      "size": 132,
+      "top": 264,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 71,
+      "n": 15
+     },
+     {
+      "x": 477,
+      "n": 6
+     },
+     {
+      "x": 883,
+      "n": 6
+     },
+     {
+      "x": 282,
+      "n": 3
+     },
+     {
+      "x": 428,
+      "n": 2
+     },
+     {
+      "x": 717,
+      "n": 2
+     },
+     {
+      "x": 808,
+      "n": 2
+     },
+     {
+      "x": 464,
+      "n": 1
+     },
+     {
+      "x": 506,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 38,
+    "bodySize": 14,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.17,
+    "voidBox": {
+     "x": 0,
+     "y": 160,
+     "w": 267,
+     "h": 640
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 10,
+   "filled": [
+    0.44,
+    1,
+    0.58,
+    0.51,
+    1,
+    1,
+    1,
+    1,
+    0.99,
+    0.99
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 9820,
+     "screens": 9.6,
+     "words": 588,
+     "img": 4,
+     "video": 0,
+     "canvas": 0,
+     "svg": 31,
+     "sections": 7,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 4,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "goldstone-dss23.jpg",
+      "nisar-orbit.jpg",
+      "nisar-payload.jpg",
+      "apollo-mission-control.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Systems for critical missions",
+     "words": 4,
+     "chars": 29,
+     "lines": 2,
+     "size": 79.5,
+     "vw": 10.4,
+     "font": "Chivo",
+     "weight": 500,
+     "tracking": -0.085,
+     "leading": 0.87,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.83,
+     "top": 312,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Systems for critical missions",
+     "words": 4,
+     "lines": 2,
+     "size": 79.5,
+     "font": "Chivo"
+    },
+    "headings": [
+     {
+      "text": "Systems for critical missions",
+      "words": 4,
+      "chars": 29,
+      "lines": 2,
+      "size": 79.5,
+      "vw": 10.4,
+      "font": "Chivo",
+      "weight": 500,
+      "tracking": -0.085,
+      "leading": 0.87,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.83,
+      "top": 312,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Systems for the full mission",
+      "words": 5,
+      "chars": 28,
+      "lines": 3,
+      "size": 50.7,
+      "vw": 6.6,
+      "font": "Chivo",
+      "weight": 450,
+      "tracking": -0.07,
+      "leading": 0.96,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.28,
+      "top": 893,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Engineering to operation",
+      "words": 3,
+      "chars": 24,
+      "lines": 2,
+      "size": 54.5,
+      "vw": 7.1,
+      "font": "Chivo",
+      "weight": 450,
+      "tracking": -0.075,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.37,
+      "top": 2836,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Built through mission work",
+      "words": 4,
+      "chars": 26,
+      "lines": 4,
+      "size": 50,
+      "vw": 6.5,
+      "font": "Chivo",
+      "weight": 450,
+      "tracking": -0.075,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.29,
+      "top": 3883,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Technology in operation",
+      "words": 3,
+      "chars": 23,
+      "lines": 3,
+      "size": 50,
+      "vw": 6.5,
+      "font": "Chivo",
+      "weight": 450,
+      "tracking": -0.075,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.3,
+      "top": 6525,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "SABIA MAR",
+      "words": 2,
+      "chars": 9,
+      "lines": 1,
+      "size": 34,
+      "vw": 4.4,
+      "font": "Chivo",
+      "weight": 450,
+      "tracking": -0.065,
+      "leading": 1.5,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.34,
+      "top": 6885,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "A company built for continuity",
+      "words": 5,
+      "chars": 30,
+      "lines": 4,
+      "size": 52,
+      "vw": 6.8,
+      "font": "Chivo",
+      "weight": 450,
+      "tracking": -0.075,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.29,
+      "top": 7427,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Talk to Ascentio",
+      "words": 3,
+      "chars": 16,
+      "lines": 2,
+      "size": 76.8,
+      "vw": 10,
+      "font": "Chivo",
+      "weight": 450,
+      "tracking": -0.085,
+      "leading": 0.84,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 8725,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "contacto@ascentio.com.ar",
+      "words": 1,
+      "chars": 24,
+      "lines": 1,
+      "size": 33.8,
+      "vw": 4.4,
+      "font": "Chivo",
+      "weight": 400,
+      "tracking": -0.055,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.55,
+      "top": 8958,
+      "tag": "a",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 9,
+     "maxLines": 4,
+     "over2Lines": 4,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Chivo",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      8,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      18,
+      20,
+      34,
+      50,
+      51,
+      52,
+      55,
+      77,
+      80
+     ],
+     "sizeCount": 17,
+     "notLoaded": [],
+     "body": {
+      "font": "Chivo",
+      "size": 14,
+      "leading": 1.65,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 11.8
+     },
+     "measureChars": 60,
+     "max": {
+      "size": 79.5,
+      "vw": 10.4,
+      "font": "Chivo",
+      "text": "Systems forcritical missions"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 7,
+     "microLabelShare": 0.015,
+     "microSamples": [
+      "2008",
+      "Mission",
+      "Missions",
+      "Belgium · Luxembourg",
+      "2025",
+      "Upcoming"
+     ],
+     "upperShare": 0.07,
+     "centerShare": 0,
+     "smallText": 33
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f5f5f5",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 0.96
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#050505",
+       "top": 798,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.02
+       }
+      },
+      {
+       "color": "#0d0d0d",
+       "top": 2157,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.05
+       }
+      },
+      {
+       "color": "#f5f5f5",
+       "top": 2615,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.96
+       }
+      },
+      {
+       "color": "#e9e9e9",
+       "top": 3779,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.91
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 6421,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#111111",
+       "top": 7323,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.07
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#c5c5c5",
+       "share": 0.24
+      },
+      {
+       "color": "#555555",
+       "share": 0.16
+      },
+      {
+       "color": "#aaaaaa",
+       "share": 0.15
+      },
+      {
+       "color": "#111111",
+       "share": 0.12
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.08
+      }
+     ],
+     "button": {
+      "bg": "#ffffff",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 1
+      },
+      "fg": "#050505"
+     },
+     "lowContrast": [
+      {
+       "text": "2008",
+       "ratio": 3.7,
+       "need": 4.5,
+       "size": 10,
+       "fg": "#777777",
+       "bg": "#e9e9e9"
+      },
+      {
+       "text": "Mission",
+       "ratio": 3.7,
+       "need": 4.5,
+       "size": 10,
+       "fg": "#777777",
+       "bg": "#e9e9e9"
+      },
+      {
+       "text": "Missions",
+       "ratio": 3.7,
+       "need": 4.5,
+       "size": 10,
+       "fg": "#777777",
+       "bg": "#e9e9e9"
+      },
+      {
+       "text": "Belgium · Luxembourg",
+       "ratio": 3.7,
+       "need": 4.5,
+       "size": 10,
+       "fg": "#777777",
+       "bg": "#e9e9e9"
+      },
+      {
+       "text": "2025",
+       "ratio": 3.7,
+       "need": 4.5,
+       "size": 10,
+       "fg": "#777777",
+       "bg": "#e9e9e9"
+      },
+      {
+       "text": "Upcoming",
+       "ratio": 3.7,
+       "need": 4.5,
+       "size": 10,
+       "fg": "#777777",
+       "bg": "#e9e9e9"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 1,
+     "radius": 0,
+     "height": 52,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to content"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 38,
+     "hairlineSamples": [
+      "header.site-header.page-width 768px",
+      "div.hero-foot 634px",
+      "div.path-copy 704px",
+      "article.mission-capability 324px",
+      "article.mission-capability 324px"
+     ],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 3,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 6,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 1490
+      },
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 7719
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "svg",
+      "ratio": 0.22
+     }
+    ],
+    "nav": {
+     "links": 7,
+     "fixed": false,
+     "height": 78,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "chivo"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 9820,
+    "margins": {
+     "left": 32,
+     "right": 32
+    },
+    "sections": [
+     {
+      "sel": "section#top.hero.page-width",
+      "tag": "section",
+      "top": 78,
+      "height": 720,
+      "words": 39,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Systems for",
+       "size": 79,
+       "tag": "h1"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 32,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.noise",
+      "tag": "div",
+      "top": 798,
+      "height": 1817,
+      "words": 0,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": null,
+      "right": null,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.page-width.mission-inner",
+      "tag": "div",
+      "top": 898,
+      "height": 1259,
+      "words": 162,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 25,
+      "right": 25,
+      "textLeft": 32,
+      "textRight": 36,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.mission-image-band",
+      "tag": "div",
+      "top": 2157,
+      "height": 458,
+      "words": 18,
+      "media": 2,
+      "middle": 23,
+      "heading": null,
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 46,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#services.services-section.section-pad",
+      "tag": "section",
+      "top": 2615,
+      "height": 1164,
+      "words": 67,
+      "media": 1,
+      "middle": 23,
+      "heading": {
+       "text": "Engineering",
+       "size": 55,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 48,
+      "textLeft": 32,
+      "textRight": 48,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.history-section.section-pad",
+      "tag": "section",
+      "top": 3779,
+      "height": 2642,
+      "words": 109,
+      "media": 0,
+      "middle": 65,
+      "heading": {
+       "text": "Built through mission work",
+       "size": 50,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 38,
+      "textLeft": 32,
+      "textRight": 38,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#work.work-section.section-pad",
+      "tag": "section",
+      "top": 6421,
+      "height": 902,
+      "words": 51,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Technology in operation",
+       "size": 50,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 33,
+      "textLeft": 32,
+      "textRight": 33,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#about.about-section.section-pad",
+      "tag": "section",
+      "top": 7323,
+      "height": 1242,
+      "words": 118,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "A company built for continuity",
+       "size": 52,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 33,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.contact-section.section-pad",
+      "tag": "section",
+      "top": 8565,
+      "height": 1032,
+      "words": 70,
+      "media": 1,
+      "middle": 38,
+      "heading": {
+       "text": "Talk to",
+       "size": 77,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 161,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.site-footer",
+      "tag": "footer",
+      "top": 9597,
+      "height": 223,
+      "words": 19,
+      "media": 0,
+      "middle": 204,
+      "heading": null,
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 32,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Systems for critical missions",
+      "size": 79,
+      "top": 312,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 32,
+      "n": 17
+     },
+     {
+      "x": 412,
+      "n": 6
+     },
+     {
+      "x": 276,
+      "n": 4
+     },
+     {
+      "x": 102,
+      "n": 3
+     },
+     {
+      "x": 290,
+      "n": 2
+     },
+     {
+      "x": 432,
+      "n": 2
+     },
+     {
+      "x": 477,
+      "n": 2
+     },
+     {
+      "x": 539,
+      "n": 2
+     }
+    ],
+    "leftBlocks": 38,
+    "bodySize": 14,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.29,
+    1,
+    1,
+    0.83,
+    0.42,
+    0.7,
+    1,
+    0.92,
+    1,
+    1,
+    1,
+    0.99
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 10030,
+     "screens": 11.9,
+     "words": 571,
+     "img": 4,
+     "video": 0,
+     "canvas": 0,
+     "svg": 31,
+     "sections": 7,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 4,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "goldstone-dss23.jpg",
+      "nisar-orbit.jpg",
+      "nisar-payload.jpg",
+      "apollo-mission-control.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Systems for critical missions",
+     "words": 4,
+     "chars": 29,
+     "lines": 2,
+     "size": 51.9,
+     "vw": 13.3,
+     "font": "Chivo",
+     "weight": 500,
+     "tracking": -0.085,
+     "leading": 0.9,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.89,
+     "top": 317,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Systems for critical missions",
+     "words": 4,
+     "lines": 2,
+     "size": 51.9,
+     "font": "Chivo"
+    },
+    "headings": [
+     {
+      "text": "Systems for critical missions",
+      "words": 4,
+      "chars": 29,
+      "lines": 2,
+      "size": 51.9,
+      "vw": 13.3,
+      "font": "Chivo",
+      "weight": 500,
+      "tracking": -0.085,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 317,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Systems for the full mission",
+      "words": 5,
+      "chars": 28,
+      "lines": 2,
+      "size": 50.7,
+      "vw": 13,
+      "font": "Chivo",
+      "weight": 450,
+      "tracking": -0.07,
+      "leading": 0.96,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 960,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Engineering to operation",
+      "words": 3,
+      "chars": 24,
+      "lines": 2,
+      "size": 64,
+      "vw": 16.4,
+      "font": "Chivo",
+      "weight": 450,
+      "tracking": -0.075,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 3352,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Built through mission work",
+      "words": 4,
+      "chars": 26,
+      "lines": 2,
+      "size": 46,
+      "vw": 11.8,
+      "font": "Chivo",
+      "weight": 450,
+      "tracking": -0.075,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 4757,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Technology in operation",
+      "words": 3,
+      "chars": 23,
+      "lines": 2,
+      "size": 46,
+      "vw": 11.8,
+      "font": "Chivo",
+      "weight": 450,
+      "tracking": -0.075,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 6028,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "SABIA MAR",
+      "words": 2,
+      "chars": 9,
+      "lines": 1,
+      "size": 39,
+      "vw": 10,
+      "font": "Chivo",
+      "weight": 450,
+      "tracking": -0.065,
+      "leading": 1.5,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 6676,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "A company built for continuity",
+      "words": 5,
+      "chars": 30,
+      "lines": 2,
+      "size": 46,
+      "vw": 11.8,
+      "font": "Chivo",
+      "weight": 450,
+      "tracking": -0.075,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 7121,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Talk to Ascentio",
+      "words": 3,
+      "chars": 16,
+      "lines": 2,
+      "size": 66.3,
+      "vw": 17,
+      "font": "Chivo",
+      "weight": 450,
+      "tracking": -0.085,
+      "leading": 0.84,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 8547,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "contacto@ascentio.com.ar",
+      "words": 1,
+      "chars": 24,
+      "lines": 1,
+      "size": 22.6,
+      "vw": 5.8,
+      "font": "Chivo",
+      "weight": 400,
+      "tracking": -0.055,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.72,
+      "top": 8754,
+      "tag": "a",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 9,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Chivo",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      18,
+      20,
+      23,
+      39,
+      46,
+      51,
+      52,
+      64,
+      66
+     ],
+     "sizeCount": 18,
+     "notLoaded": [],
+     "body": {
+      "font": "Chivo",
+      "size": 14,
+      "leading": 1.65,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 11.8
+     },
+     "measureChars": 49,
+     "max": {
+      "size": 66.3,
+      "vw": 17,
+      "font": "Chivo",
+      "text": "Talk toAscentio"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 7,
+     "microLabelShare": 0.015,
+     "microSamples": [
+      "2008",
+      "Mission",
+      "Missions",
+      "Belgium · Luxembourg",
+      "2025",
+      "Upcoming"
+     ],
+     "upperShare": 0.07,
+     "centerShare": 0,
+     "smallText": 25
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f5f5f5",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 0.96
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#050505",
+       "top": 844,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.02
+       }
+      },
+      {
+       "color": "#0d0d0d",
+       "top": 2522,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.05
+       }
+      },
+      {
+       "color": "#f5f5f5",
+       "top": 3143,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.96
+       }
+      },
+      {
+       "color": "#e9e9e9",
+       "top": 4638,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.91
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 5909,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#111111",
+       "top": 7002,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.07
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#c5c5c5",
+       "share": 0.25
+      },
+      {
+       "color": "#555555",
+       "share": 0.16
+      },
+      {
+       "color": "#aaaaaa",
+       "share": 0.15
+      },
+      {
+       "color": "#111111",
+       "share": 0.13
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.09
+      }
+     ],
+     "button": {
+      "bg": "#ffffff",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 1
+      },
+      "fg": "#050505"
+     },
+     "lowContrast": [
+      {
+       "text": "2008",
+       "ratio": 3.7,
+       "need": 4.5,
+       "size": 11,
+       "fg": "#777777",
+       "bg": "#e9e9e9"
+      },
+      {
+       "text": "A connected set of disciplines for compl",
+       "ratio": 4.1,
+       "need": 4.5,
+       "size": 13,
+       "fg": "#777777",
+       "bg": "#f5f5f5"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 1,
+     "radius": 0,
+     "height": 52,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to content"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 41,
+     "hairlineSamples": [
+      "header.site-header.page-width 390px",
+      "div.hero-foot 346px",
+      "div.path-copy 346px",
+      "article.mission-capability 346px",
+      "article.mission-capability 346px"
+     ],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 4,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 6,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 1621
+      },
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 7397
+      }
+     ]
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 2,
+     "fixed": false,
+     "height": 72,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "chivo"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 10030,
+    "margins": {
+     "left": 22,
+     "right": 22
+    },
+    "sections": [
+     {
+      "sel": "section#top.hero.page-width",
+      "tag": "section",
+      "top": 72,
+      "height": 772,
+      "words": 33,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Systems for",
+       "size": 52,
+       "tag": "h1"
+      },
+      "left": 22,
+      "right": 28,
+      "textLeft": 22,
+      "textRight": 28,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.noise",
+      "tag": "div",
+      "top": 844,
+      "height": 2299,
+      "words": 0,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": null,
+      "right": null,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.page-width.mission-inner",
+      "tag": "div",
+      "top": 960,
+      "height": 1562,
+      "words": 162,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Mission control centers",
+       "size": 18,
+       "tag": "h3"
+      },
+      "left": 22,
+      "right": 22,
+      "textLeft": 22,
+      "textRight": 22,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.mission-image-band",
+      "tag": "div",
+      "top": 2522,
+      "height": 621,
+      "words": 18,
+      "media": 2,
+      "middle": 0,
+      "heading": null,
+      "left": 22,
+      "right": 22,
+      "textLeft": 22,
+      "textRight": 130,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#services.services-section.section-pad",
+      "tag": "section",
+      "top": 3143,
+      "height": 1495,
+      "words": 67,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Engineering",
+       "size": 64,
+       "tag": "h2"
+      },
+      "left": 22,
+      "right": 22,
+      "textLeft": 22,
+      "textRight": 25,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.history-section.section-pad",
+      "tag": "section",
+      "top": 4638,
+      "height": 1272,
+      "words": 109,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Built through mission work",
+       "size": 46,
+       "tag": "h2"
+      },
+      "left": 22,
+      "right": 26,
+      "textLeft": 22,
+      "textRight": 26,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#work.work-section.section-pad",
+      "tag": "section",
+      "top": 5909,
+      "height": 1092,
+      "words": 51,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Technology in operation",
+       "size": 46,
+       "tag": "h2"
+      },
+      "left": 22,
+      "right": 22,
+      "textLeft": 22,
+      "textRight": 28,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#about.about-section.section-pad",
+      "tag": "section",
+      "top": 7002,
+      "height": 1415,
+      "words": 118,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "A company built for continuity",
+       "size": 46,
+       "tag": "h2"
+      },
+      "left": 22,
+      "right": 22,
+      "textLeft": 22,
+      "textRight": 28,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.contact-section.section-pad",
+      "tag": "section",
+      "top": 8417,
+      "height": 1345,
+      "words": 70,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Talk to",
+       "size": 66,
+       "tag": "h2"
+      },
+      "left": 22,
+      "right": 22,
+      "textLeft": 22,
+      "textRight": 25,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.site-footer",
+      "tag": "footer",
+      "top": 9762,
+      "height": 268,
+      "words": 16,
+      "media": 0,
+      "middle": 20,
+      "heading": null,
+      "left": 22,
+      "right": 22,
+      "textLeft": 22,
+      "textRight": 22,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 508,
+      "height": 296
+     }
+    ],
+    "h1s": [
+     {
+      "text": "Systems for critical missions",
+      "size": 52,
+      "top": 317,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 22,
+      "n": 38
+     }
+    ],
+    "leftBlocks": 38,
+    "bodySize": 14,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "FAIL",
+   "id": "headline-lines",
+   "width": 1440,
+   "message": "4 headline(s) wrap past two lines at 1440px: \"Systems for the full mission\" → 4 lines (5 words, 90px); \"Built through mission work\" → 4 lines (4 words, 88px); \"Technology in operation\" → 3 lines (3 words, 90px); \"A company built for continuity\" → 4 lines (5 words, 92px)",
+   "fix": "Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 36px or less."
+  },
+  {
+   "level": "WARN",
+   "id": "statement-length",
+   "width": 1440,
+   "message": "1 large-set statement(s) run past 3 lines at 1440px: \"Hardware, firmware and software developm…\" → 5 lines at 34px",
+   "fix": "A statement set large is about 30 words. Cut it, or set the rest as ordinary body text.",
+   "alsoAt": [
+    1280
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "eyebrow",
+   "width": 1440,
+   "message": "1 eyebrow/kicker label(s) above headings: \"Systems engineering\" above \"Hardware, firmware and software developm\"",
+   "fix": "Delete them. If the label carried real information, fold it into the headline or the supporting sentence.",
+   "alsoAt": [
+    1280
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "micro-label",
+   "width": 1440,
+   "message": "7 tiny uppercase letter-spaced labels (e.g. \"2008\", \"Mission\", \"Missions\", \"Belgium · Luxembourg\").",
+   "fix": "Use sentence-case text at a readable size, or delete the label.",
+   "alsoAt": [
+    1280,
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "hairline",
+   "width": 1440,
+   "message": "41 thin rule(s)/divider line(s): header.site-header.page-width 1440px | div.hero-foot 1043px | div.path-copy 1280px | article.mission-capability 367px",
+   "fix": "Delete. Separate with space, a tone change, or scale. Lines are only for real tables and form fields.",
+   "alsoAt": [
+    1280,
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "card-rows",
+   "width": 1440,
+   "message": "2 rows of identical boxed cards.",
+   "fix": "Vary the composition; not every section is a card grid.",
+   "alsoAt": [
+    1280,
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "contrast",
+   "width": 1440,
+   "message": "Low-contrast text: \"2008\" 3.7:1 needs 4.5:1; \"A connected set of disciplines for compl\" 4.1:1 needs 4.5:1",
+   "fix": "Darken or lighten the text colour.",
+   "alsoAt": [
+    1280,
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "size-count",
+   "width": 1440,
+   "message": "20 different font sizes (8, 10, 11, 12, 13, 14, 15, 16, 20, 25, 27, 34, 55, 62, 88, 90, 92, 100, 140, 149).",
+   "fix": "A page needs about five: display, heading, lead, body, small.",
+   "alsoAt": [
+    1280,
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "body-size",
+   "width": 1440,
+   "message": "Body text is 14px (the size most of the running text is set in).",
+   "fix": "Body copy 16–20px. Map small sizes from blueprints onto your body step.",
+   "alsoAt": [
+    1280,
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject.",
+   "alsoAt": [
+    1280
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "small-text",
+   "width": 1440,
+   "message": "34 text blocks under 13px.",
+   "fix": "Nothing meant to be read goes below 13px.",
+   "alsoAt": [
+    1280,
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "still-page",
+   "width": 1440,
+   "message": "Only 0 element(s) moved while the page loaded and scrolled.",
+   "fix": "Build the motion layer (SKILL.md step 9, references/motion.md): the signature move, an entrance for the parts of every section, feedback on every control, and one moving picture. Transform and opacity only, with a reduced-motion fallback.",
+   "alsoAt": [
+    1280
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "headline-lines",
+   "width": 1280,
+   "message": "4 headline(s) wrap past two lines at 1280px: \"Systems for the full mission\" → 4 lines (5 words, 84.5px); \"Built through mission work\" → 4 lines (4 words, 81.9px); \"Technology in operation\" → 3 lines (3 words, 83.2px); \"A company built for continuity\" → 4 lines (5 words, 85.8px)",
+   "fix": "Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 36px or less."
+  },
+  {
+   "level": "FAIL",
+   "id": "headline-lines",
+   "width": 768,
+   "message": "4 headline(s) wrap past two lines at 768px: \"Systems for the full mission\" → 3 lines (5 words, 50.7px); \"Built through mission work\" → 4 lines (4 words, 50px); \"Technology in operation\" → 3 lines (3 words, 50px); \"A company built for continuity\" → 4 lines (5 words, 52px)",
+   "fix": "Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 32px or less."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "/home/brian/Desktop/Ascentio/.taste-skill/final-inspect/desktop-1440-fold.jpg",
+   "pages": [
+    "/home/brian/Desktop/Ascentio/.taste-skill/final-inspect/desktop-1440-page-01.jpg",
+    "/home/brian/Desktop/Ascentio/.taste-skill/final-inspect/desktop-1440-page-02.jpg",
+    "/home/brian/Desktop/Ascentio/.taste-skill/final-inspect/desktop-1440-page-03.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "desktop",
+   "width": 1280,
+   "fold": "/home/brian/Desktop/Ascentio/.taste-skill/final-inspect/desktop-1280-fold.jpg",
+   "pages": [
+    "/home/brian/Desktop/Ascentio/.taste-skill/final-inspect/desktop-1280-page-01.jpg",
+    "/home/brian/Desktop/Ascentio/.taste-skill/final-inspect/desktop-1280-page-02.jpg",
+    "/home/brian/Desktop/Ascentio/.taste-skill/final-inspect/desktop-1280-page-03.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "/home/brian/Desktop/Ascentio/.taste-skill/final-inspect/tablet-fold.jpg",
+   "pages": [
+    "/home/brian/Desktop/Ascentio/.taste-skill/final-inspect/tablet-page-01.jpg",
+    "/home/brian/Desktop/Ascentio/.taste-skill/final-inspect/tablet-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "/home/brian/Desktop/Ascentio/.taste-skill/final-inspect/mobile-fold.jpg",
+   "pages": [
+    "/home/brian/Desktop/Ascentio/.taste-skill/final-inspect/mobile-page-01.jpg",
+    "/home/brian/Desktop/Ascentio/.taste-skill/final-inspect/mobile-page-02.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

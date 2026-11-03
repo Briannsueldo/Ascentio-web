@@ -1,0 +1,3021 @@
+{
+ "url": "http://127.0.0.1:4173/",
+ "at": "2026-10-31T00:23:26.763Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 8,
+   "filled": [
+    0.45,
+    0.78,
+    0.68,
+    0.74,
+    0.6,
+    0.73,
+    0.63,
+    0.51
+   ],
+   "motion": {
+    "elements": 38,
+    "css": 3,
+    "transitions": 35,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 7015,
+     "screens": 7.8,
+     "words": 536,
+     "img": 8,
+     "video": 0,
+     "canvas": 0,
+     "svg": 7,
+     "sections": 7,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 4,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "earth-telemetry.png",
+      "earth-telemetry.png",
+      "aerospace.jpg",
+      "company-visual.jpeg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Systems for critical missions",
+     "words": 4,
+     "chars": 29,
+     "lines": 2,
+     "size": 62,
+     "vw": 4.3,
+     "font": "General Sans",
+     "weight": 600,
+     "tracking": -0.045,
+     "leading": 0.98,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.37,
+     "top": 364,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Systems for critical missions",
+     "words": 4,
+     "lines": 2,
+     "size": 62,
+     "font": "General Sans"
+    },
+    "headings": [
+     {
+      "text": "Systems for critical missions",
+      "words": 4,
+      "chars": 29,
+      "lines": 2,
+      "size": 62,
+      "vw": 4.3,
+      "font": "General Sans",
+      "weight": 600,
+      "tracking": -0.045,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.37,
+      "top": 364,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Systems for the full mission",
+      "words": 5,
+      "chars": 28,
+      "lines": 2,
+      "size": 56,
+      "vw": 3.9,
+      "font": "General Sans",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.03,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.29,
+      "top": 1139,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Engineering to operation",
+      "words": 3,
+      "chars": 24,
+      "lines": 2,
+      "size": 56,
+      "vw": 3.9,
+      "font": "General Sans",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.03,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.29,
+      "top": 2440,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Built through mission work",
+      "words": 4,
+      "chars": 26,
+      "lines": 2,
+      "size": 56,
+      "vw": 3.9,
+      "font": "General Sans",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.03,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.29,
+      "top": 3149,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Technology in operation",
+      "words": 3,
+      "chars": 23,
+      "lines": 2,
+      "size": 56,
+      "vw": 3.9,
+      "font": "General Sans",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.03,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.29,
+      "top": 4038,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "A company built for continuity",
+      "words": 5,
+      "chars": 30,
+      "lines": 2,
+      "size": 56,
+      "vw": 3.9,
+      "font": "General Sans",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.03,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.29,
+      "top": 5032,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Talk to Ascentio",
+      "words": 3,
+      "chars": 16,
+      "lines": 2,
+      "size": 56,
+      "vw": 3.9,
+      "font": "General Sans",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.03,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.29,
+      "top": 5952,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "ASCENTIO",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 56,
+      "vw": 3.9,
+      "font": "General Sans",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 1,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.2,
+      "top": 6727,
+      "tag": "span",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 8,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "General Sans",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      13,
+      14,
+      17,
+      20,
+      22,
+      24,
+      56,
+      62
+     ],
+     "sizeCount": 8,
+     "notLoaded": [],
+     "body": {
+      "font": "General Sans",
+      "size": 17,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 9.1
+     },
+     "measureChars": 68,
+     "max": {
+      "size": 62,
+      "vw": 4.3,
+      "font": "General Sans",
+      "text": "Systems forcritical missions"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.02,
+     "centerShare": 0.01,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#09131f",
+     "bodyBgHsl": {
+      "h": 213,
+      "s": 0.55,
+      "l": 0.08
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#172944",
+       "top": 151,
+       "hsl": {
+        "h": 216,
+        "s": 0.49,
+        "l": 0.18
+       }
+      },
+      {
+       "color": "#101e2d",
+       "top": 995,
+       "hsl": {
+        "h": 211,
+        "s": 0.48,
+        "l": 0.12
+       }
+      },
+      {
+       "color": "#09131f",
+       "top": 2325,
+       "hsl": {
+        "h": 213,
+        "s": 0.55,
+        "l": 0.08
+       }
+      },
+      {
+       "color": "#0d1c2b",
+       "top": 6663,
+       "hsl": {
+        "h": 210,
+        "s": 0.54,
+        "l": 0.11
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#f3f6f7",
+       "share": 0.65
+      },
+      {
+       "color": "#b3c0c9",
+       "share": 0.3
+      },
+      {
+       "color": "#5cbbd0",
+       "share": 0.02
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.01
+      },
+      {
+       "color": "#f3f7f7",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#263b78",
+      "hsl": {
+       "h": 225,
+       "s": 0.52,
+       "l": 0.31
+      },
+      "fg": "#f3f7f7"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 8,
+     "inHero": 7,
+     "radius": 2,
+     "height": 44,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to content",
+      "Start a conversation",
+      "Explore space engineering",
+      "Aerospace",
+      "Industry"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 4,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.41
+     },
+     {
+      "type": "svg",
+      "ratio": 0.12
+     }
+    ],
+    "nav": {
+     "links": 7,
+     "fixed": false,
+     "height": 96,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "general sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 7015,
+    "margins": {
+     "left": 60,
+     "right": 60
+    },
+    "sections": [
+     {
+      "sel": "section#top.hero.page-width",
+      "tag": "section",
+      "top": 96,
+      "height": 899,
+      "words": 32,
+      "media": 2,
+      "middle": 114,
+      "heading": {
+       "text": "Systems for",
+       "size": 62,
+       "tag": "h1"
+      },
+      "left": 60,
+      "right": 33,
+      "textLeft": 60,
+      "textRight": 297,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#space.space-section.section-pad",
+      "tag": "section",
+      "top": 995,
+      "height": 1330,
+      "words": 146,
+      "media": 2,
+      "middle": 124,
+      "heading": {
+       "text": "Systems for the full mission",
+       "size": 56,
+       "tag": "h2"
+      },
+      "left": 60,
+      "right": 80,
+      "textLeft": 83,
+      "textRight": 80,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": true
+     },
+     {
+      "sel": "section#services.services-section.section-pad",
+      "tag": "section",
+      "top": 2325,
+      "height": 680,
+      "words": 28,
+      "media": 0,
+      "middle": 294,
+      "heading": {
+       "text": "Engineering",
+       "size": 56,
+       "tag": "h2"
+      },
+      "left": 60,
+      "right": 304,
+      "textLeft": 60,
+      "textRight": 304,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.history-section.section-pad",
+      "tag": "section",
+      "top": 3005,
+      "height": 889,
+      "words": 109,
+      "media": 0,
+      "middle": 112,
+      "heading": {
+       "text": "Built through mission work",
+       "size": 56,
+       "tag": "h2"
+      },
+      "left": 60,
+      "right": 66,
+      "textLeft": 60,
+      "textRight": 66,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#work.work-section.section-pad",
+      "tag": "section",
+      "top": 3894,
+      "height": 993,
+      "words": 78,
+      "media": 1,
+      "middle": 115,
+      "heading": {
+       "text": "Technology in operation",
+       "size": 56,
+       "tag": "h2"
+      },
+      "left": 60,
+      "right": 60,
+      "textLeft": 60,
+      "textRight": 60,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": true
+     },
+     {
+      "sel": "section#about.about-section.section-pad",
+      "tag": "section",
+      "top": 4888,
+      "height": 920,
+      "words": 108,
+      "media": 1,
+      "middle": 130,
+      "heading": {
+       "text": "A company built for continuity",
+       "size": 56,
+       "tag": "h2"
+      },
+      "left": 60,
+      "right": 62,
+      "textLeft": 60,
+      "textRight": 62,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.contact-section.section-pad",
+      "tag": "section",
+      "top": 5808,
+      "height": 855,
+      "words": 67,
+      "media": 0,
+      "middle": 214,
+      "heading": {
+       "text": "Talk to",
+       "size": 56,
+       "tag": "h2"
+      },
+      "left": 60,
+      "right": 60,
+      "textLeft": 60,
+      "textRight": 456,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.site-footer",
+      "tag": "footer",
+      "top": 6663,
+      "height": 352,
+      "words": 19,
+      "media": 0,
+      "middle": 428,
+      "heading": {
+       "text": "ASCENTIO",
+       "size": 56,
+       "tag": "span"
+      },
+      "left": 60,
+      "right": 60,
+      "textLeft": 60,
+      "textRight": 60,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 3720,
+      "height": 308
+     },
+     {
+      "top": 4744,
+      "height": 280
+     },
+     {
+      "top": 5664,
+      "height": 280
+     }
+    ],
+    "h1s": [
+     {
+      "text": "Systems for critical missions",
+      "size": 62,
+      "top": 364,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 60,
+      "n": 13
+     },
+     {
+      "x": 786,
+      "n": 12
+     },
+     {
+      "x": 833,
+      "n": 6
+     },
+     {
+      "x": 745,
+      "n": 3
+     },
+     {
+      "x": 83,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 35,
+    "bodySize": 17,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.09,
+    "voidBox": {
+     "x": 0,
+     "y": 120,
+     "w": 660,
+     "h": 180
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 1280,
+   "height": 800,
+   "load": "load",
+   "screens": 9,
+   "filled": [
+    0.51,
+    0.86,
+    0.77,
+    0.49,
+    0.77,
+    0.54,
+    0.87,
+    0.32,
+    0.58
+   ],
+   "motion": {
+    "elements": 38,
+    "css": 3,
+    "transitions": 35,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1280,
+     "h": 800
+    },
+    "page": {
+     "height": 6656,
+     "screens": 8.3,
+     "words": 536,
+     "img": 8,
+     "video": 0,
+     "canvas": 0,
+     "svg": 7,
+     "sections": 7,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 4,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "earth-telemetry.png",
+      "earth-telemetry.png",
+      "aerospace.jpg",
+      "company-visual.jpeg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Systems for critical missions",
+     "words": 4,
+     "chars": 29,
+     "lines": 2,
+     "size": 62,
+     "vw": 4.8,
+     "font": "General Sans",
+     "weight": 600,
+     "tracking": -0.045,
+     "leading": 0.98,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.37,
+     "top": 322,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Systems for critical missions",
+     "words": 4,
+     "lines": 2,
+     "size": 62,
+     "font": "General Sans"
+    },
+    "headings": [
+     {
+      "text": "Systems for critical missions",
+      "words": 4,
+      "chars": 29,
+      "lines": 2,
+      "size": 62,
+      "vw": 4.8,
+      "font": "General Sans",
+      "weight": 600,
+      "tracking": -0.045,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.37,
+      "top": 322,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Systems for the full mission",
+      "words": 5,
+      "chars": 28,
+      "lines": 2,
+      "size": 51.2,
+      "vw": 4,
+      "font": "General Sans",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.03,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.29,
+      "top": 1039,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Engineering to operation",
+      "words": 3,
+      "chars": 24,
+      "lines": 2,
+      "size": 51.2,
+      "vw": 4,
+      "font": "General Sans",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.03,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.29,
+      "top": 2327,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Built through mission work",
+      "words": 4,
+      "chars": 26,
+      "lines": 2,
+      "size": 51.2,
+      "vw": 4,
+      "font": "General Sans",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.03,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.29,
+      "top": 3008,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Technology in operation",
+      "words": 3,
+      "chars": 23,
+      "lines": 2,
+      "size": 51.2,
+      "vw": 4,
+      "font": "General Sans",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.03,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.29,
+      "top": 3855,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "A company built for continuity",
+      "words": 5,
+      "chars": 30,
+      "lines": 2,
+      "size": 51.2,
+      "vw": 4,
+      "font": "General Sans",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.03,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.29,
+      "top": 4782,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Talk to Ascentio",
+      "words": 3,
+      "chars": 16,
+      "lines": 2,
+      "size": 51.2,
+      "vw": 4,
+      "font": "General Sans",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.03,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.29,
+      "top": 5619,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "ASCENTIO",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 56,
+      "vw": 4.4,
+      "font": "General Sans",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 1,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.22,
+      "top": 6368,
+      "tag": "span",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 8,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "General Sans",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      13,
+      14,
+      17,
+      20,
+      22,
+      24,
+      51,
+      56,
+      62
+     ],
+     "sizeCount": 9,
+     "notLoaded": [],
+     "body": {
+      "font": "General Sans",
+      "size": 17,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 9.1
+     },
+     "measureChars": 67,
+     "max": {
+      "size": 62,
+      "vw": 4.8,
+      "font": "General Sans",
+      "text": "Systems forcritical missions"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.02,
+     "centerShare": 0.01,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#09131f",
+     "bodyBgHsl": {
+      "h": 213,
+      "s": 0.55,
+      "l": 0.08
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#172944",
+       "top": 151,
+       "hsl": {
+        "h": 216,
+        "s": 0.49,
+        "l": 0.18
+       }
+      },
+      {
+       "color": "#101e2d",
+       "top": 911,
+       "hsl": {
+        "h": 211,
+        "s": 0.48,
+        "l": 0.12
+       }
+      },
+      {
+       "color": "#09131f",
+       "top": 2225,
+       "hsl": {
+        "h": 213,
+        "s": 0.55,
+        "l": 0.08
+       }
+      },
+      {
+       "color": "#0d1c2b",
+       "top": 6304,
+       "hsl": {
+        "h": 210,
+        "s": 0.54,
+        "l": 0.11
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#f3f6f7",
+       "share": 0.65
+      },
+      {
+       "color": "#b3c0c9",
+       "share": 0.3
+      },
+      {
+       "color": "#5cbbd0",
+       "share": 0.02
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.01
+      },
+      {
+       "color": "#f3f7f7",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#263b78",
+      "hsl": {
+       "h": 225,
+       "s": 0.52,
+       "l": 0.31
+      },
+      "fg": "#f3f7f7"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 8,
+     "inHero": 7,
+     "radius": 2,
+     "height": 44,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to content",
+      "Start a conversation",
+      "Explore space engineering",
+      "Aerospace",
+      "Industry"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 4,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.4
+     },
+     {
+      "type": "svg",
+      "ratio": 0.12
+     }
+    ],
+    "nav": {
+     "links": 7,
+     "fixed": false,
+     "height": 96,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "general sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1280,
+     "h": 800
+    },
+    "pageH": 6656,
+    "margins": {
+     "left": 54,
+     "right": 54
+    },
+    "sections": [
+     {
+      "sel": "section#top.hero.page-width",
+      "tag": "section",
+      "top": 96,
+      "height": 815,
+      "words": 32,
+      "media": 2,
+      "middle": 94,
+      "heading": {
+       "text": "Systems for",
+       "size": 62,
+       "tag": "h1"
+      },
+      "left": 54,
+      "right": 29,
+      "textLeft": 54,
+      "textRight": 220,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#space.space-section.section-pad",
+      "tag": "section",
+      "top": 911,
+      "height": 1314,
+      "words": 146,
+      "media": 2,
+      "middle": 110,
+      "heading": {
+       "text": "Systems for the full mission",
+       "size": 51,
+       "tag": "h2"
+      },
+      "left": 54,
+      "right": 58,
+      "textLeft": 74,
+      "textRight": 58,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": true
+     },
+     {
+      "sel": "section#services.services-section.section-pad",
+      "tag": "section",
+      "top": 2225,
+      "height": 655,
+      "words": 28,
+      "media": 0,
+      "middle": 225,
+      "heading": {
+       "text": "Engineering",
+       "size": 51,
+       "tag": "h2"
+      },
+      "left": 54,
+      "right": 220,
+      "textLeft": 54,
+      "textRight": 220,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.history-section.section-pad",
+      "tag": "section",
+      "top": 2880,
+      "height": 847,
+      "words": 109,
+      "media": 0,
+      "middle": 114,
+      "heading": {
+       "text": "Built through mission work",
+       "size": 51,
+       "tag": "h2"
+      },
+      "left": 54,
+      "right": 59,
+      "textLeft": 54,
+      "textRight": 59,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#work.work-section.section-pad",
+      "tag": "section",
+      "top": 3727,
+      "height": 927,
+      "words": 78,
+      "media": 1,
+      "middle": 102,
+      "heading": {
+       "text": "Technology in operation",
+       "size": 51,
+       "tag": "h2"
+      },
+      "left": 54,
+      "right": 54,
+      "textLeft": 54,
+      "textRight": 54,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": true
+     },
+     {
+      "sel": "section#about.about-section.section-pad",
+      "tag": "section",
+      "top": 4654,
+      "height": 837,
+      "words": 108,
+      "media": 1,
+      "middle": 115,
+      "heading": {
+       "text": "A company built for continuity",
+       "size": 51,
+       "tag": "h2"
+      },
+      "left": 54,
+      "right": 55,
+      "textLeft": 54,
+      "textRight": 55,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.contact-section.section-pad",
+      "tag": "section",
+      "top": 5491,
+      "height": 813,
+      "words": 67,
+      "media": 0,
+      "middle": 163,
+      "heading": {
+       "text": "Talk to",
+       "size": 51,
+       "tag": "h2"
+      },
+      "left": 54,
+      "right": 54,
+      "textLeft": 54,
+      "textRight": 392,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.site-footer",
+      "tag": "footer",
+      "top": 6304,
+      "height": 352,
+      "words": 19,
+      "media": 0,
+      "middle": 354,
+      "heading": {
+       "text": "ASCENTIO",
+       "size": 56,
+       "tag": "span"
+      },
+      "left": 54,
+      "right": 54,
+      "textLeft": 54,
+      "textRight": 54,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 3596,
+      "height": 252
+     },
+     {
+      "top": 4528,
+      "height": 244
+     },
+     {
+      "top": 5364,
+      "height": 248
+     }
+    ],
+    "h1s": [
+     {
+      "text": "Systems for critical missions",
+      "size": 62,
+      "top": 322,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 54,
+      "n": 13
+     },
+     {
+      "x": 702,
+      "n": 12
+     },
+     {
+      "x": 740,
+      "n": 6
+     },
+     {
+      "x": 665,
+      "n": 3
+     },
+     {
+      "x": 74,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 35,
+    "bodySize": 17,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.09,
+    "voidBox": {
+     "x": 0,
+     "y": 107,
+     "w": 587,
+     "h": 160
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 8,
+   "filled": [
+    0.62,
+    0.91,
+    0.64,
+    0.8,
+    0.4,
+    0.8,
+    0.49,
+    0.48
+   ],
+   "motion": {
+    "elements": 38,
+    "css": 3,
+    "transitions": 35,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 7246,
+     "screens": 7.1,
+     "words": 525,
+     "img": 8,
+     "video": 0,
+     "canvas": 0,
+     "svg": 7,
+     "sections": 7,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 4,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "earth-telemetry.png",
+      "earth-telemetry.png",
+      "aerospace.jpg",
+      "company-visual.jpeg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Systems for critical missions",
+     "words": 4,
+     "chars": 29,
+     "lines": 2,
+     "size": 48,
+     "vw": 6.3,
+     "font": "General Sans",
+     "weight": 600,
+     "tracking": -0.045,
+     "leading": 0.98,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.92,
+     "top": 150,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Systems for critical missions",
+     "words": 4,
+     "lines": 2,
+     "size": 48,
+     "font": "General Sans"
+    },
+    "headings": [
+     {
+      "text": "Systems for critical missions",
+      "words": 4,
+      "chars": 29,
+      "lines": 2,
+      "size": 48,
+      "vw": 6.3,
+      "font": "General Sans",
+      "weight": 600,
+      "tracking": -0.045,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 150,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Systems for the full mission",
+      "words": 5,
+      "chars": 28,
+      "lines": 2,
+      "size": 32,
+      "vw": 4.2,
+      "font": "General Sans",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.03,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.31,
+      "top": 1300,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Engineering to operation",
+      "words": 3,
+      "chars": 24,
+      "lines": 2,
+      "size": 32,
+      "vw": 4.2,
+      "font": "General Sans",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.03,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.31,
+      "top": 2774,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Built through mission work",
+      "words": 4,
+      "chars": 26,
+      "lines": 2,
+      "size": 32,
+      "vw": 4.2,
+      "font": "General Sans",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.03,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.31,
+      "top": 3460,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Technology in operation",
+      "words": 3,
+      "chars": 23,
+      "lines": 2,
+      "size": 32,
+      "vw": 4.2,
+      "font": "General Sans",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.03,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.31,
+      "top": 4282,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "A company built for continuity",
+      "words": 5,
+      "chars": 30,
+      "lines": 2,
+      "size": 32,
+      "vw": 4.2,
+      "font": "General Sans",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.03,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.31,
+      "top": 5261,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Talk to Ascentio",
+      "words": 3,
+      "chars": 16,
+      "lines": 2,
+      "size": 32,
+      "vw": 4.2,
+      "font": "General Sans",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.03,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.31,
+      "top": 6116,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "ASCENTIO",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 56,
+      "vw": 7.3,
+      "font": "General Sans",
+      "weight": 700,
+      "tracking": -0.04,
+      "leading": 1,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.37,
+      "top": 6958,
+      "tag": "span",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 8,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "General Sans",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      13,
+      14,
+      17,
+      20,
+      22,
+      24,
+      32,
+      48,
+      56
+     ],
+     "sizeCount": 9,
+     "notLoaded": [],
+     "body": {
+      "font": "General Sans",
+      "size": 17,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 9.1
+     },
+     "measureChars": 41,
+     "max": {
+      "size": 56,
+      "vw": 7.3,
+      "font": "General Sans",
+      "text": "ASCENTIO"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.02,
+     "centerShare": 0.01,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#09131f",
+     "bodyBgHsl": {
+      "h": 213,
+      "s": 0.55,
+      "l": 0.08
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#172944",
+       "top": 498,
+       "hsl": {
+        "h": 216,
+        "s": 0.49,
+        "l": 0.18
+       }
+      },
+      {
+       "color": "#101e2d",
+       "top": 1204,
+       "hsl": {
+        "h": 211,
+        "s": 0.48,
+        "l": 0.12
+       }
+      },
+      {
+       "color": "#09131f",
+       "top": 2678,
+       "hsl": {
+        "h": 213,
+        "s": 0.55,
+        "l": 0.08
+       }
+      },
+      {
+       "color": "#0d1c2b",
+       "top": 6894,
+       "hsl": {
+        "h": 210,
+        "s": 0.54,
+        "l": 0.11
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#f3f6f7",
+       "share": 0.66
+      },
+      {
+       "color": "#b3c0c9",
+       "share": 0.3
+      },
+      {
+       "color": "#5cbbd0",
+       "share": 0.02
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.01
+      },
+      {
+       "color": "#f3f7f7",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#08131e",
+      "hsl": {
+       "h": 210,
+       "s": 0.58,
+       "l": 0.07
+      },
+      "fg": "#f3f7f7"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 7,
+     "inHero": 2,
+     "radius": 2,
+     "height": 44,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to content",
+      "Explore space engineering"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 4,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.48
+     },
+     {
+      "type": "svg",
+      "ratio": 0.21
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": false,
+     "height": 84,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "general sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 7246,
+    "margins": {
+     "left": 31,
+     "right": 31
+    },
+    "sections": [
+     {
+      "sel": "section#top.hero.page-width",
+      "tag": "section",
+      "top": 84,
+      "height": 1120,
+      "words": 32,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "Systems for",
+       "size": 48,
+       "tag": "h1"
+      },
+      "left": 26,
+      "right": 2,
+      "textLeft": 31,
+      "textRight": 174,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#space.space-section.section-pad",
+      "tag": "section",
+      "top": 1204,
+      "height": 1474,
+      "words": 146,
+      "media": 2,
+      "middle": 52,
+      "heading": {
+       "text": "Systems for the full mission",
+       "size": 32,
+       "tag": "h2"
+      },
+      "left": 31,
+      "right": 38,
+      "textLeft": 43,
+      "textRight": 38,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#services.services-section.section-pad",
+      "tag": "section",
+      "top": 2678,
+      "height": 642,
+      "words": 28,
+      "media": 0,
+      "middle": 152,
+      "heading": {
+       "text": "Engineering",
+       "size": 32,
+       "tag": "h2"
+      },
+      "left": 31,
+      "right": 62,
+      "textLeft": 31,
+      "textRight": 62,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.history-section.section-pad",
+      "tag": "section",
+      "top": 3320,
+      "height": 866,
+      "words": 109,
+      "media": 0,
+      "middle": 44,
+      "heading": {
+       "text": "Built through mission work",
+       "size": 32,
+       "tag": "h2"
+      },
+      "left": 31,
+      "right": 34,
+      "textLeft": 31,
+      "textRight": 34,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#work.work-section.section-pad",
+      "tag": "section",
+      "top": 4186,
+      "height": 979,
+      "words": 78,
+      "media": 1,
+      "middle": 45,
+      "heading": {
+       "text": "Technology in operation",
+       "size": 32,
+       "tag": "h2"
+      },
+      "left": 31,
+      "right": 31,
+      "textLeft": 31,
+      "textRight": 31,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#about.about-section.section-pad",
+      "tag": "section",
+      "top": 5165,
+      "height": 855,
+      "words": 108,
+      "media": 1,
+      "middle": 69,
+      "heading": {
+       "text": "A company built for continuity",
+       "size": 32,
+       "tag": "h2"
+      },
+      "left": 31,
+      "right": 31,
+      "textLeft": 31,
+      "textRight": 31,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.contact-section.section-pad",
+      "tag": "section",
+      "top": 6020,
+      "height": 874,
+      "words": 67,
+      "media": 0,
+      "middle": 80,
+      "heading": {
+       "text": "Talk to",
+       "size": 32,
+       "tag": "h2"
+      },
+      "left": 31,
+      "right": 31,
+      "textLeft": 31,
+      "textRight": 245,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.site-footer",
+      "tag": "footer",
+      "top": 6894,
+      "height": 352,
+      "words": 19,
+      "media": 0,
+      "middle": 121,
+      "heading": {
+       "text": "ASCENTIO",
+       "size": 56,
+       "tag": "span"
+      },
+      "left": 31,
+      "right": 31,
+      "textLeft": 31,
+      "textRight": 31,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Systems for critical missions",
+      "size": 48,
+      "top": 150,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 31,
+      "n": 13
+     },
+     {
+      "x": 428,
+      "n": 12
+     },
+     {
+      "x": 444,
+      "n": 6
+     },
+     {
+      "x": 394,
+      "n": 2
+     },
+     {
+      "x": 43,
+      "n": 1
+     },
+     {
+      "x": 409,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 35,
+    "bodySize": 17,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.68,
+    0.93,
+    0.84,
+    0.51,
+    0.93,
+    0.84,
+    0.64,
+    0.61,
+    0.93,
+    0.6,
+    0.4,
+    0.76
+   ],
+   "motion": {
+    "elements": 37,
+    "css": 3,
+    "transitions": 34,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 9714,
+     "screens": 11.5,
+     "words": 522,
+     "img": 8,
+     "video": 0,
+     "canvas": 0,
+     "svg": 7,
+     "sections": 7,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 7,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "earth-telemetry.png",
+      "earth-telemetry.png",
+      "aerospace.jpg",
+      "energy.jpg",
+      "telecommunications.jpg",
+      "earth-telemetry.png",
+      "company-visual.jpeg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Systems for critical missions",
+     "words": 4,
+     "chars": 29,
+     "lines": 2,
+     "size": 36,
+     "vw": 9.2,
+     "font": "General Sans",
+     "weight": 600,
+     "tracking": -0.045,
+     "leading": 1.02,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.9,
+     "top": 130,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Systems for critical missions",
+     "words": 4,
+     "lines": 2,
+     "size": 36,
+     "font": "General Sans"
+    },
+    "headings": [
+     {
+      "text": "Systems for critical missions",
+      "words": 4,
+      "chars": 29,
+      "lines": 2,
+      "size": 36,
+      "vw": 9.2,
+      "font": "General Sans",
+      "weight": 600,
+      "tracking": -0.045,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 130,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Ascentio designs, develops and operates high-availability systems for aerospace, industrial, energy and telecommunications sectors.",
+      "words": 14,
+      "chars": 131,
+      "lines": 4,
+      "size": 22,
+      "vw": 5.6,
+      "font": "General Sans",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 225,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Aerospace",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "General Sans",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1.55,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.29,
+      "top": 760,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Systems for the full mission",
+      "words": 5,
+      "chars": 28,
+      "lines": 2,
+      "size": 30,
+      "vw": 7.7,
+      "font": "General Sans",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.03,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.57,
+      "top": 1447,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Engineering to operation",
+      "words": 3,
+      "chars": 24,
+      "lines": 2,
+      "size": 30,
+      "vw": 7.7,
+      "font": "General Sans",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.03,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.57,
+      "top": 2778,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Engineering",
+      "words": 1,
+      "chars": 11,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "General Sans",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.55,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 2942,
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "Hardware and firmware development",
+      "words": 4,
+      "chars": 33,
+      "lines": 2,
+      "size": 24,
+      "vw": 6.2,
+      "font": "General Sans",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.55,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 3009,
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "Software development",
+      "words": 2,
+      "chars": 20,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "General Sans",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.55,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 3083,
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "Testing",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "General Sans",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.55,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 3150,
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "Deployment and integration",
+      "words": 3,
+      "chars": 26,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "General Sans",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.55,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 3217,
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "Operation and maintenance",
+      "words": 3,
+      "chars": 25,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "General Sans",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.55,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 3284,
+      "tag": "li",
+      "kind": "statement"
+     },
+     {
+      "text": "Built through mission work",
+      "words": 4,
+      "chars": 26,
+      "lines": 2,
+      "size": 30,
+      "vw": 7.7,
+      "font": "General Sans",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.03,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.57,
+      "top": 3533,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Technology in operation",
+      "words": 3,
+      "chars": 23,
+      "lines": 2,
+      "size": 30,
+      "vw": 7.7,
+      "font": "General Sans",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.03,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.57,
+      "top": 4931,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "A company built for continuity",
+      "words": 5,
+      "chars": 30,
+      "lines": 2,
+      "size": 30,
+      "vw": 7.7,
+      "font": "General Sans",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.03,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.57,
+      "top": 6893,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Talk to Ascentio",
+      "words": 3,
+      "chars": 16,
+      "lines": 2,
+      "size": 30,
+      "vw": 7.7,
+      "font": "General Sans",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1.03,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.57,
+      "top": 8091,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Share an idea or project with the Ascentio team.",
+      "words": 9,
+      "chars": 48,
+      "lines": 2,
+      "size": 22,
+      "vw": 5.6,
+      "font": "General Sans",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.55,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 8171,
+      "tag": "p",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 16,
+     "maxLines": 4,
+     "over2Lines": 0,
+     "statements": 9,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "General Sans",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      13,
+      14,
+      17,
+      18,
+      20,
+      22,
+      24,
+      30,
+      36
+     ],
+     "sizeCount": 9,
+     "notLoaded": [],
+     "body": {
+      "font": "General Sans",
+      "size": 17,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 9.1
+     },
+     "measureChars": 41,
+     "max": {
+      "size": 36,
+      "vw": 9.2,
+      "font": "General Sans",
+      "text": "Systems forcritical missions"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.02,
+     "centerShare": 0.01,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#09131f",
+     "bodyBgHsl": {
+      "h": 213,
+      "s": 0.55,
+      "l": 0.08
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#172944",
+       "top": 463,
+       "hsl": {
+        "h": 216,
+        "s": 0.49,
+        "l": 0.18
+       }
+      },
+      {
+       "color": "#101e2d",
+       "top": 946,
+       "hsl": {
+        "h": 211,
+        "s": 0.48,
+        "l": 0.12
+       }
+      },
+      {
+       "color": "#09131f",
+       "top": 2682,
+       "hsl": {
+        "h": 213,
+        "s": 0.55,
+        "l": 0.08
+       }
+      },
+      {
+       "color": "#0d1c2b",
+       "top": 9300,
+       "hsl": {
+        "h": 210,
+        "s": 0.54,
+        "l": 0.11
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#f3f6f7",
+       "share": 0.66
+      },
+      {
+       "color": "#b3c0c9",
+       "share": 0.3
+      },
+      {
+       "color": "#5cbbd0",
+       "share": 0.02
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.01
+      },
+      {
+       "color": "#f3f7f7",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#08131e",
+      "hsl": {
+       "h": 210,
+       "s": 0.58,
+       "l": 0.07
+      },
+      "fg": "#f3f7f7"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 7,
+     "inHero": 4,
+     "radius": 2,
+     "height": 44,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to content",
+      "Explore space engineering",
+      "Aerospace",
+      "Industry"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 7,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.42
+     },
+     {
+      "type": "svg",
+      "ratio": 0.18
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": false,
+     "height": 76,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "general sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 9714,
+    "margins": {
+     "left": 20,
+     "right": 20
+    },
+    "sections": [
+     {
+      "sel": "section#top.hero.page-width",
+      "tag": "section",
+      "top": 76,
+      "height": 870,
+      "words": 32,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "Systems for",
+       "size": 36,
+       "tag": "h1"
+      },
+      "left": 16,
+      "right": 12,
+      "textLeft": 20,
+      "textRight": 35,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#space.space-section.section-pad",
+      "tag": "section",
+      "top": 946,
+      "height": 1735,
+      "words": 146,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "Systems for the full mission",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 21,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#services.services-section.section-pad",
+      "tag": "section",
+      "top": 2682,
+      "height": 766,
+      "words": 28,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Engineering",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 24,
+      "textLeft": 20,
+      "textRight": 24,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.history-section.section-pad",
+      "tag": "section",
+      "top": 3447,
+      "height": 1397,
+      "words": 109,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Built through mission work",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 27,
+      "textLeft": 20,
+      "textRight": 27,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#work.work-section.section-pad",
+      "tag": "section",
+      "top": 4845,
+      "height": 1963,
+      "words": 75,
+      "media": 4,
+      "middle": 0,
+      "heading": {
+       "text": "Technology in operation",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 28,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#about.about-section.section-pad",
+      "tag": "section",
+      "top": 6807,
+      "height": 1198,
+      "words": 108,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "A company built for continuity",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 22,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.contact-section.section-pad",
+      "tag": "section",
+      "top": 8005,
+      "height": 1295,
+      "words": 67,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Talk to",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 39,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.site-footer",
+      "tag": "footer",
+      "top": 9300,
+      "height": 414,
+      "words": 19,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 20,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Systems for critical missions",
+      "size": 36,
+      "top": 130,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 20,
+      "n": 22
+     },
+     {
+      "x": 48,
+      "n": 12
+     },
+     {
+      "x": 34,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 35,
+    "bodySize": 17,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject.",
+   "alsoAt": [
+    1280
+   ]
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "/home/brian/Desktop/Ascentio/.taste-skill/inspect/desktop-1440-fold.jpg",
+   "pages": [
+    "/home/brian/Desktop/Ascentio/.taste-skill/inspect/desktop-1440-page-01.jpg",
+    "/home/brian/Desktop/Ascentio/.taste-skill/inspect/desktop-1440-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "desktop",
+   "width": 1280,
+   "fold": "/home/brian/Desktop/Ascentio/.taste-skill/inspect/desktop-1280-fold.jpg",
+   "pages": [
+    "/home/brian/Desktop/Ascentio/.taste-skill/inspect/desktop-1280-page-01.jpg",
+    "/home/brian/Desktop/Ascentio/.taste-skill/inspect/desktop-1280-page-02.jpg",
+    "/home/brian/Desktop/Ascentio/.taste-skill/inspect/desktop-1280-page-03.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "/home/brian/Desktop/Ascentio/.taste-skill/inspect/tablet-fold.jpg",
+   "pages": [
+    "/home/brian/Desktop/Ascentio/.taste-skill/inspect/tablet-page-01.jpg",
+    "/home/brian/Desktop/Ascentio/.taste-skill/inspect/tablet-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "/home/brian/Desktop/Ascentio/.taste-skill/inspect/mobile-fold.jpg",
+   "pages": [
+    "/home/brian/Desktop/Ascentio/.taste-skill/inspect/mobile-page-01.jpg",
+    "/home/brian/Desktop/Ascentio/.taste-skill/inspect/mobile-page-02.jpg"
+   ],
+   "film": []
+  }
+ ]
+}
