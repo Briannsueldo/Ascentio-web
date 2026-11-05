@@ -50,6 +50,69 @@ export const copy = {
         { date: '2028', title: 'Genesis Mission', detail: 'Published upcoming work includes ground-segment critical design for Genesis.' },
       ],
     },
+    groundSegment: {
+      title: ['Advanced', 'Ground Segment'],
+      subtitle: 'Comprehensive Engineering across the Full Mission Lifecycle.',
+      cards: [
+        {
+          title: 'Mission Control Centers',
+          description: 'We develop the critical software infrastructure required to operate satellites securely and efficiently.',
+          items: [
+            ['Real-Time Monitoring', 'Visualization of telemetry and health status for both the platform and the payload.'],
+            ['Command & Control', 'Secure transmission of telecommands for remote satellite operations.'],
+            ['Alarm Management', 'Automated systems for early detection of on-orbit anomalies.'],
+            ['Robust Infrastructure', 'Solutions engineered for 24/7 operations with high availability.'],
+          ],
+        },
+        {
+          title: 'Science Data Production Centers',
+          description: 'We implement high performance processing systems to manage the information captured by satellite instruments.',
+          items: [
+            ['Ingestion & Processing', 'Capture of raw data and multi-level processing (L0, L1, L2, etc.).'],
+            ['Archiving & Cataloging', 'Secure, organized storage for high volumes of historical mission data.'],
+            ['Distribution', 'Agile interfaces for scientists and end-users to access generated data products.'],
+          ],
+        },
+        {
+          title: 'Mission Planning Systems',
+          description: 'We create advanced tools to coordinate satellite activities, maximizing mission return.',
+          items: [
+            ['Activity Scheduling', 'Defining when and where the satellite should capture images, gather measurements, or downlink data.'],
+            ['Resource Management', 'Balancing power budgets, on-board memory, and communication windows with ground stations.'],
+            ['Conflict Resolution', 'Automated algorithms to prevent overlaps in critical mission tasks.'],
+          ],
+        },
+        {
+          title: 'Mission Simulation Systems',
+          description: 'We provide virtual environments that replicate the behavior of both the spacecraft and the ground segment.',
+          items: [
+            ['Operator Training', 'Preparing flight teams in a safe, simulated environment prior to launch.'],
+            ['Procedure Validation', 'Testing critical maneuvers and contingency plans without risk to the flight hardware.'],
+            ['Software Testing', 'Verification of new versions and patches before uploading them to the satellite in flight.'],
+          ],
+        },
+        {
+          title: 'Systems Engineering',
+          description: 'We provide end-to-end systems engineering support, ensuring the reliability, performance, and mission readiness of complex space systems through:',
+          items: [
+            ['Requirements Management', 'Full-lifecycle management of mission and system requirements. Utilizing industry standards, providing software tools and leading rigorous traceability processes.'],
+            ['Detailed Systems Design', 'Development of secure, resilient, and mission-compliant architectures, supported by comprehensive design documentation and technical artifacts.'],
+            ['Phase Review Support', 'Expert preparation and participation in formal lifecycle reviews (e.g., PDR, CDR), delivering the necessary technical data packages and presentations to ensure program milestone approval.'],
+            ['Operations Design', 'Definition and optimization of Concept of Operations (ConOps) and standard operating procedures to maximize mission efficiency.'],
+            ['Verification & Validation (V&V)', 'Comprehensive compliance validation of system, operational, and mission requirements through rigorous design analysis, simulations, and testing campaigns.'],
+          ],
+        },
+        {
+          title: 'Maritime Intelligence',
+          description: 'We develop Maritime Intelligence solutions leveraging our deep expertise in complex data processing, advanced Computer Vision, and Artificial Intelligence (AI).',
+          items: [
+            ['Real-Time Monitoring', 'Continuous tracking and management of maritime and port assets.'],
+            ['AI-Driven Analysis', 'Automated detection and classification of vessels and activities.'],
+            ['Operational Control', 'Transforming raw data into actionable insights for enhanced security and port efficiency.'],
+          ],
+        },
+      ],
+    },
     work: {
       title: 'Technology in operation',
       intro: 'We are an Argentine technology-based company dedicated to the design, development and operation of complex high-availability systems for the aerospace, industrial, energy and telecommunications sectors.',
@@ -138,6 +201,69 @@ export const copy = {
         { date: '2026', title: 'Ascentio Europa', detail: 'Apertura de la primera oficina europea para fortalecer las operaciones regionales y las alianzas locales.' },
         { date: '2027', title: 'Misión SABIA MAR', detail: 'El trabajo futuro publicado incluye operaciones de misión y segmento terreno para SABIA MAR.' },
         { date: '2028', title: 'Misión Genesis', detail: 'El trabajo futuro publicado incluye diseño crítico del segmento terreno para Genesis.' },
+      ],
+    },
+    groundSegment: {
+      title: ['Segmento terreno', 'avanzado'],
+      subtitle: 'Ingeniería integral a lo largo de todo el ciclo de vida de la misión.',
+      cards: [
+        {
+          title: 'Centros de control de misión',
+          description: 'Desarrollamos la infraestructura de software crítica para operar satélites de forma segura y eficiente.',
+          items: [
+            ['Monitoreo en tiempo real', 'Visualización de telemetría y estado de salud de la plataforma y la carga útil.'],
+            ['Comando y control', 'Transmisión segura de telecomandos para operaciones satelitales remotas.'],
+            ['Gestión de alarmas', 'Sistemas automatizados para la detección temprana de anomalías en órbita.'],
+            ['Infraestructura robusta', 'Soluciones diseñadas para operaciones 24/7 con alta disponibilidad.'],
+          ],
+        },
+        {
+          title: 'Centros de producción de datos científicos',
+          description: 'Implementamos sistemas de procesamiento de alto rendimiento para gestionar la información capturada por instrumentos satelitales.',
+          items: [
+            ['Ingesta y procesamiento', 'Captura de datos brutos y procesamiento multinivel (L0, L1, L2, etc.).'],
+            ['Archivo y catalogación', 'Almacenamiento seguro y organizado de grandes volúmenes de datos históricos de misión.'],
+            ['Distribución', 'Interfaces ágiles para que científicos y usuarios accedan a los productos de datos generados.'],
+          ],
+        },
+        {
+          title: 'Sistemas de planificación de misión',
+          description: 'Creamos herramientas avanzadas para coordinar las actividades satelitales y maximizar el rendimiento de la misión.',
+          items: [
+            ['Programación de actividades', 'Definición de cuándo y dónde el satélite debe capturar imágenes, reunir mediciones o transmitir datos.'],
+            ['Gestión de recursos', 'Equilibrio de presupuestos de energía, memoria a bordo y ventanas de comunicación con estaciones terrenas.'],
+            ['Resolución de conflictos', 'Algoritmos automatizados para evitar superposiciones en tareas críticas de misión.'],
+          ],
+        },
+        {
+          title: 'Sistemas de simulación de misión',
+          description: 'Proveemos entornos virtuales que replican el comportamiento de la nave espacial y del segmento terreno.',
+          items: [
+            ['Capacitación de operadores', 'Preparación de los equipos de vuelo en un entorno simulado y seguro antes del lanzamiento.'],
+            ['Validación de procedimientos', 'Prueba de maniobras críticas y planes de contingencia sin riesgo para el hardware de vuelo.'],
+            ['Pruebas de software', 'Verificación de nuevas versiones y parches antes de cargarlos al satélite en vuelo.'],
+          ],
+        },
+        {
+          title: 'Ingeniería de sistemas',
+          description: 'Brindamos soporte integral de ingeniería de sistemas para asegurar la confiabilidad, el rendimiento y la preparación para misión de sistemas espaciales complejos mediante:',
+          items: [
+            ['Gestión de requisitos', 'Gestión integral de los requisitos de misión y sistema durante todo su ciclo de vida. Aplicamos estándares de la industria, proveemos herramientas de software y lideramos procesos rigurosos de trazabilidad.'],
+            ['Diseño detallado de sistemas', 'Desarrollo de arquitecturas seguras, resilientes y alineadas con la misión, respaldadas por documentación de diseño y artefactos técnicos completos.'],
+            ['Soporte para revisiones de fase', 'Preparación experta y participación en revisiones formales del ciclo de vida (por ejemplo, PDR y CDR), con paquetes de datos técnicos y presentaciones para respaldar la aprobación de hitos.'],
+            ['Diseño de operaciones', 'Definición y optimización del concepto de operaciones (ConOps) y de procedimientos operativos estándar para maximizar la eficiencia de la misión.'],
+            ['Verificación y validación (V&V)', 'Validación integral del cumplimiento de requisitos de sistema, operación y misión mediante análisis de diseño, simulaciones y campañas de pruebas rigurosas.'],
+          ],
+        },
+        {
+          title: 'Inteligencia marítima',
+          description: 'Desarrollamos soluciones de inteligencia marítima con nuestra experiencia en procesamiento de datos complejos, visión artificial avanzada e inteligencia artificial (IA).',
+          items: [
+            ['Monitoreo en tiempo real', 'Seguimiento y gestión continua de activos marítimos y portuarios.'],
+            ['Análisis basado en IA', 'Detección y clasificación automatizadas de embarcaciones y actividades.'],
+            ['Control operativo', 'Transformación de datos en información útil para mejorar la seguridad y la eficiencia portuaria.'],
+          ],
+        },
       ],
     },
     work: {

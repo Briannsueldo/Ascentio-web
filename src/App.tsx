@@ -403,6 +403,45 @@ function HistorySection({ t }: { t: Content }) {
   );
 }
 
+function GroundSegmentSection({ t }: { t: Content }) {
+  return (
+    <section
+      className="ground-segment-section"
+      aria-labelledby="ground-segment-title"
+    >
+      <div className="page-width ground-segment-intro" data-reveal>
+        <h2 id="ground-segment-title">
+          {t.groundSegment.title.map((line) => <span key={line}>{line}</span>)}
+        </h2>
+        <p>{t.groundSegment.subtitle}</p>
+      </div>
+      <div className="page-width ground-segment-stack">
+        <ol className="ground-segment-list">
+          {t.groundSegment.cards.map((card, index) => (
+            <li className="ground-segment-card" key={card.title}>
+              <header className="ground-card-heading">
+                <span className="ground-card-index" aria-label={`${index + 1} of ${t.groundSegment.cards.length}`}>
+                  {String(index + 1).padStart(2, "0")} / {String(t.groundSegment.cards.length).padStart(2, "0")}
+                </span>
+                <h3>{card.title}</h3>
+                <p>{card.description}</p>
+              </header>
+              <ul className="ground-card-details">
+                {card.items.map(([label, description]) => (
+                  <li key={label}>
+                    <h4>{label}</h4>
+                    <p>{description}</p>
+                  </li>
+                ))}
+              </ul>
+            </li>
+          ))}
+        </ol>
+      </div>
+    </section>
+  );
+}
+
 function WorkSection({ lang, t }: { lang: Language; t: Content }) {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
   return (
@@ -569,7 +608,7 @@ function AboutSection({ t }: { t: Content }) {
 function ContactSection({ lang, t }: { lang: Language; t: Content }) {
   const [error, setError] = useState("");
   const [messageOpen, setMessageOpen] = useState(false);
-  const [topic, setTopic] = useState(t.contact.topics[0]);
+  const [topic, setTopic] = useState<string>(t.contact.topics[0]);
   const dialogRef = useRef<HTMLDialogElement>(null);
   const mailto = useMemo(
     () => (subject: string, body: string) =>
@@ -770,6 +809,7 @@ export default function App() {
         <Hero t={t} />
         <WorkSection lang={lang} t={t} />
         <HistorySection t={t} />
+        <GroundSegmentSection t={t} />
         <ServicesSection t={t} />
         <AboutSection t={t} />
         <ContactSection lang={lang} t={t} />
