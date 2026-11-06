@@ -95,11 +95,11 @@ export const copy = {
           title: 'Systems Engineering',
           description: 'We provide end-to-end systems engineering support, ensuring the reliability, performance, and mission readiness of complex space systems through:',
           items: [
-            ['Requirements Management', 'Full-lifecycle management of mission and system requirements. Utilizing industry standards, providing software tools and leading rigorous traceability processes.'],
-            ['Detailed Systems Design', 'Development of secure, resilient, and mission-compliant architectures, supported by comprehensive design documentation and technical artifacts.'],
-            ['Phase Review Support', 'Expert preparation and participation in formal lifecycle reviews (e.g., PDR, CDR), delivering the necessary technical data packages and presentations to ensure program milestone approval.'],
-            ['Operations Design', 'Definition and optimization of Concept of Operations (ConOps) and standard operating procedures to maximize mission efficiency.'],
-            ['Verification & Validation (V&V)', 'Comprehensive compliance validation of system, operational, and mission requirements through rigorous design analysis, simulations, and testing campaigns.'],
+            ['Requirements Management', 'Full-lifecycle management of mission and system requirements.'],
+            ['Detailed Systems Design', 'Development of secure and mission-compliant architectures.'],
+            ['Phase Review Support', 'Expert preparation and participation in lifecycle reviews (e.g., PDR, CDR)'],
+            ['Operations Design', 'Definition and optimization of Concept of Operations (ConOps)'],
+            ['Verification & Validation (V&V)', 'Comprehensive compliance validation of system, and mission requirements through rigorous processes'],
           ],
         },
         {
@@ -250,11 +250,11 @@ export const copy = {
           title: 'Ingeniería de sistemas',
           description: 'Brindamos soporte integral de ingeniería de sistemas para asegurar la confiabilidad, el rendimiento y la preparación para misión de sistemas espaciales complejos mediante:',
           items: [
-            ['Gestión de requisitos', 'Gestión integral de los requisitos de misión y sistema durante todo su ciclo de vida. Aplicamos estándares de la industria, proveemos herramientas de software y lideramos procesos rigurosos de trazabilidad.'],
-            ['Diseño detallado de sistemas', 'Desarrollo de arquitecturas seguras, resilientes y alineadas con la misión, respaldadas por documentación de diseño y artefactos técnicos completos.'],
-            ['Soporte para revisiones de fase', 'Preparación experta y participación en revisiones formales del ciclo de vida (por ejemplo, PDR y CDR), con paquetes de datos técnicos y presentaciones para respaldar la aprobación de hitos.'],
-            ['Diseño de operaciones', 'Definición y optimización del concepto de operaciones (ConOps) y de procedimientos operativos estándar para maximizar la eficiencia de la misión.'],
-            ['Verificación y validación (V&V)', 'Validación integral del cumplimiento de requisitos de sistema, operación y misión mediante análisis de diseño, simulaciones y campañas de pruebas rigurosas.'],
+            ['Gestión de requisitos', 'Gestión integral de los requisitos de misión y sistema durante todo su ciclo de vida.'],
+            ['Diseño detallado de sistemas', 'Desarrollo de arquitecturas seguras, resilientes y alineadas con la misión.'],
+            ['Soporte para revisiones de fase', 'Preparación experta y revisiones formales del ciclo de vida (por ejemplo, PDR y CDR)'],
+            ['Diseño de operaciones', 'Definición y optimización del concepto de operaciones (ConOps)'],
+            ['Verificación y validación (V&V)', 'Validación integral del cumplimiento de requisitos de sistema, operación y misión mediante multiples procesos'],
           ],
         },
         {
