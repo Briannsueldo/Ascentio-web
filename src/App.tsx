@@ -323,6 +323,18 @@ function ServicesSection({ t }: { t: Content }) {
                 <h3>{service.name}</h3>
                 <p>{service.description}</p>
               </div>
+              <svg
+                className="service-arrow"
+                aria-hidden="true"
+                viewBox="0 0 24 24"
+                fill="none"
+              >
+                <path
+                  d="M4 12h15m-6-6 6 6-6 6"
+                  stroke="currentColor"
+                  strokeWidth="1.6"
+                />
+              </svg>
             </li>
           ))}
         </ol>
@@ -419,21 +431,25 @@ function GroundSegmentSection({ t }: { t: Content }) {
         <ol className="ground-segment-list">
           {t.groundSegment.cards.map((card, index) => (
             <li className="ground-segment-card" key={card.title}>
-              <header className="ground-card-heading">
-                <span className="ground-card-index" aria-label={`${index + 1} of ${t.groundSegment.cards.length}`}>
-                  {String(index + 1).padStart(2, "0")} / {String(t.groundSegment.cards.length).padStart(2, "0")}
-                </span>
-                <h3>{card.title}</h3>
-                <p>{card.description}</p>
-              </header>
-              <ul className="ground-card-details">
-                {card.items.map(([label, description]) => (
-                  <li key={label}>
-                    <h4>{label}</h4>
-                    <p>{description}</p>
-                  </li>
-                ))}
-              </ul>
+              <div className="ground-card-panel">
+                <img className="ground-card-logo" src="/images/logos/asc_logo.png" alt="" aria-hidden="true" />
+                <div className="ground-card-main">
+                  <h3>{card.title}</h3>
+                  <p>{card.description}</p>
+                </div>
+              </div>
+              <div className="ground-card-details">
+                <ul className="ground-card-detail-list">
+                  {card.items.map(([label, description], itemIndex) => (
+                    <li key={label}>
+                      <span className="ground-item-number">{String(itemIndex + 1).padStart(2, "0")}</span>
+                      <h4>{label}</h4>
+                      <p>{description}</p>
+                    </li>
+                  ))}
+                </ul>
+                <span className="ground-card-number" aria-hidden="true">{String(index + 1).padStart(2, "0")}</span>
+              </div>
             </li>
           ))}
         </ol>
