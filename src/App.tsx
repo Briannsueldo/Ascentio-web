@@ -813,9 +813,6 @@ export default function App() {
   }, []);
   return (
     <>
-      <a className="skip-link" href="#main">
-        {lang === "en" ? "Skip to content" : "Ir al contenido"}
-      </a>
       <Header
         lang={lang}
         t={t}
