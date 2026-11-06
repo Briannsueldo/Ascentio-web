@@ -296,7 +296,7 @@ function PartnersSection({ t }: { t: Content }) {
       {partnerLogos.map((logo) => (
         <li key={logo.name}>
           <img
-            src={encodeURI(`${import.meta.env.BASE_URL}/images/logos/${logo.file}`)}
+            src={encodeURI(`${import.meta.env.BASE_URL}images/logos/${logo.file}`)}
             alt={duplicate ? "" : logo.name}
             loading="lazy"
             decoding="async"
