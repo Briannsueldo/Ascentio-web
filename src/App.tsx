@@ -524,7 +524,7 @@ function WorkSection({ lang, t }: { lang: Language; t: Content }) {
                 >
                   <img
                     className="work-card-image"
-                    src={item.image}
+                    src={`${import.meta.env.BASE_URL}${item.image}`}
                     alt={`${item.name} — ${item.sector}`}
                     aria-hidden="true"
                     loading="lazy"
@@ -595,7 +595,8 @@ function AboutSection({ t }: { t: Content }) {
       <div className="page-width">
         <div className="about-hero" id="about-hero" data-reveal>
           <img
-            src="/images/aboutus.png"
+            //src=`/images/aboutus.png`
+            src={`${import.meta.env.BASE_URL}/images/aboutus.png`}
             alt={t.about.imageAlt}
             aria-hidden="true"
             loading="lazy"
