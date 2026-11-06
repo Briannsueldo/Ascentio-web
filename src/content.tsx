@@ -125,6 +125,7 @@ export const copy = {
     },
     about: {
       title: 'About us',
+      imageAlt: 'Ascentio Technologies engineering office',
       eyebrow: 'Our principles',
       intro: 'We specialize in designing, developing, and delivering high-availability software solutions',
       introAccent: 'software solutions',
@@ -278,6 +279,7 @@ export const copy = {
     },
     about: {
       title: 'Sobre nosotros',
+      imageAlt: 'Oficina de ingeniería de Ascentio Technologies',
       eyebrow: 'Nuestros principios',
       intro: 'Nos especializamos en diseñar, desarrollar y entregar soluciones de software de alta disponibilidad',
       introAccent: 'soluciones de software',

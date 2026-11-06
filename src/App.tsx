@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState, type FormEvent } from "react";
-import createGlobe from "cobe";
+import type createGlobe from "cobe";
 import { copy, type Content, type Language } from "./content";
+import { SITE_URL, languagePaths, seo } from "./seo";
 
 const navIds = ["services", "work", "about", "contact"] as const;
 
@@ -50,6 +51,10 @@ function Globe() {
     let phi = 0.35;
     let lastSize = 0;
     let isVisible = true;
+    let disposed = false;
+    // Loaded lazily so the WebGL library stays out of the main bundle
+    // and is never evaluated during build-time pre-rendering.
+    let globeFactory: typeof createGlobe | undefined;
 
     const animate = () => {
       frame = 0;
@@ -67,7 +72,8 @@ function Globe() {
 
     const resize = () => {
       const size = Math.round(canvas.getBoundingClientRect().width);
-      if (size < 2 || size === lastSize) return;
+      if (!globeFactory || size < 2 || size === lastSize) return;
+      const createGlobe = globeFactory;
 
       if (frame) window.cancelAnimationFrame(frame);
       frame = 0;
@@ -114,7 +120,18 @@ function Globe() {
     });
     visibilityObserver.observe(shell);
 
+    import("cobe")
+      .then(({ default: factory }) => {
+        if (disposed) return;
+        globeFactory = factory;
+        resize();
+      })
+      .catch(() => {
+        if (!disposed) shell.classList.add("globe-fallback-active");
+      });
+
     return () => {
+      disposed = true;
       sizeObserver.disconnect();
       visibilityObserver.disconnect();
       if (frame) window.cancelAnimationFrame(frame);
@@ -496,7 +513,7 @@ function WorkSection({ lang, t }: { lang: Language; t: Content }) {
                   <img
                     className="work-card-image"
                     src={item.image}
-                    alt=""
+                    alt={`${item.name} — ${item.sector}`}
                     aria-hidden="true"
                     loading="lazy"
                     decoding="async"
@@ -567,7 +584,7 @@ function AboutSection({ t }: { t: Content }) {
         <div className="about-hero" data-reveal>
           <img
             src="/images/aboutus.png"
-            alt=""
+            alt={t.about.imageAlt}
             aria-hidden="true"
             loading="lazy"
             decoding="async"
@@ -772,11 +789,29 @@ function Footer({ lang, t, onLanguage }: { lang: Language; t: Content; onLanguag
   );
 }
 
-export default function App() {
-  const [lang, setLang] = useState<Language>("en");
+function setMeta(selector: string, value: string) {
+  document.querySelector(selector)?.setAttribute("content", value);
+}
+
+export default function App({ initialLang = "en" }: { initialLang?: Language }) {
+  const [lang, setLang] = useState<Language>(initialLang);
   const t = copy[lang];
   useEffect(() => {
+    const meta = seo[lang];
+    const url = `${SITE_URL}${languagePaths[lang]}`;
     document.documentElement.lang = lang;
+    document.title = meta.title;
+    setMeta('meta[name="description"]', meta.description);
+    setMeta('meta[property="og:title"]', meta.title);
+    setMeta('meta[property="og:description"]', meta.description);
+    setMeta('meta[property="og:url"]', url);
+    setMeta('meta[property="og:locale"]', meta.locale);
+    document.querySelector('link[rel="canonical"]')?.setAttribute("href", url);
+    // Keep the address bar on the URL that matches the visible language,
+    // so shared links and bookmarks open in the right language.
+    if (window.location.pathname !== languagePaths[lang]) {
+      window.history.replaceState(null, "", `${languagePaths[lang]}${window.location.hash}`);
+    }
   }, [lang]);
   useEffect(() => {
     if (
