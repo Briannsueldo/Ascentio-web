@@ -3,7 +3,12 @@ import type createGlobe from "cobe";
 import { copy, type Content, type Language } from "./content";
 import { SITE_URL, languagePaths, seo } from "./seo";
 
-const navIds = ["services", "work", "about", "contact"] as const;
+const navItems = [
+  { key: "services", href: "#services-section" },
+  { key: "space", href: "#ground-segment-section" },
+  { key: "work", href: "#work" },
+  { key: "about", href: "#about-section" },
+] as const;
 
 function Arrow({ diagonal = false }: { diagonal?: boolean }) {
   return (
@@ -205,16 +210,16 @@ function Header({
         className={open ? "main-nav main-nav--open" : "main-nav"}
         aria-label="Main navigation"
       >
-        {navIds.map((id) => (
+        {navItems.map(({ key, href }) => (
           <a
-            href={`#${id}`}
-            key={id}
+            href={href}
+            key={key}
             onClick={() => {
               setOpen(false);
               setHidden(false);
             }}
           >
-            {t.nav[id]}
+            {t.nav[key]}
           </a>
         ))}
         <button
@@ -227,7 +232,7 @@ function Header({
         </button>
       </nav>
       <a className="header-contact" href="#contact">
-        {t.nav.action}
+        {t.nav.contact}
         <Arrow diagonal />
       </a>
     </header>
@@ -246,7 +251,7 @@ function Hero({ t }: { t: Content }) {
           {t.hero.title}
         </h1>
         <p className="hero-lede">{t.hero.description}</p>
-        <a className="hero-link" href="#services">
+        <a className="hero-link" href="#services-title">
           {t.hero.action}
           <Arrow />
         </a>
@@ -325,7 +330,7 @@ function ServicesSection({ t }: { t: Content }) {
   return (
     <section
       className="services-section"
-      id="services"
+      id="services-section"
       aria-labelledby="services-title"
     >
       <div className="page-width section-pad">
@@ -436,13 +441,16 @@ function GroundSegmentSection({ t }: { t: Content }) {
   return (
     <section
       className="ground-segment-section"
+      id="ground-segment-section"
       aria-labelledby="ground-segment-title"
     >
       <div className="page-width ground-segment-intro" data-reveal>
+        <p className="about-principle-label ground-segment-label">{t.groundSegment.label}</p>
         <h2 id="ground-segment-title">
-          {t.groundSegment.title.map((line) => <span key={line}>{line}</span>)}
+          {t.groundSegment.title.map((word, index) => (
+            <span key={word}>{index > 0 ? " " : ""}{word}</span>
+          ))}
         </h2>
-        <p>{t.groundSegment.subtitle}</p>
       </div>
       <div className="page-width ground-segment-stack">
         <ol className="ground-segment-list">
@@ -487,7 +495,11 @@ function WorkSection({ lang, t }: { lang: Language; t: Content }) {
       <div className="page-width">
         <div className="work-head">
           <h2 id="work-title">{t.work.title}</h2>
-          <p>{t.work.intro}</p>
+          <p>
+            {t.work.intro.split(t.work.introAccent)[0]}
+            <span className="work-intro-accent">{t.work.introAccent}</span>
+            {t.work.intro.split(t.work.introAccent)[1]}
+          </p>
         </div>
         <ol
           className="work-cards"
@@ -577,11 +589,11 @@ function AboutSection({ t }: { t: Content }) {
   return (
     <section
       className="about-section section-pad"
-      id="about"
+      id="about-section"
       aria-labelledby="about-title"
     >
       <div className="page-width">
-        <div className="about-hero" data-reveal>
+        <div className="about-hero" id="about-hero" data-reveal>
           <img
             src="/images/aboutus.png"
             alt={t.about.imageAlt}
@@ -760,9 +772,9 @@ function Footer({ lang, t, onLanguage }: { lang: Language; t: Content; onLanguag
           </section>
           <nav className="footer-column" aria-labelledby="footer-navigate">
             <h2 id="footer-navigate">{t.footer.navigate}</h2>
-            <a href="#services">{t.nav.services}</a>
-            <a href="#work">{t.nav.work}</a>
-            <a href="#about">{t.nav.about}</a>
+            <a href="#services-title">{t.nav.services}</a>
+            <a href="#work-title">{t.nav.work}</a>
+            <a href="#about-title">{t.nav.about}</a>
             <a href={`mailto:contacto@ascentio.com.ar?subject=${encodeURIComponent(lang === "en" ? "Work with us" : "Trabajá con nosotros")}`}>{t.footer.careers}</a>
           </nav>
           <nav className="footer-column" aria-labelledby="footer-follow">

@@ -2,7 +2,7 @@ export type Language = 'en' | 'es';
 
 export const copy = {
   en: {
-    nav: { services: 'Capabilities', work: 'Our work', about: 'Company', contact: 'Contact', action: 'Start a conversation', menu: 'Open navigation', language: 'Español' },
+    nav: { services: 'Services', space: 'Space Engineering', work: 'Our work', about: 'Company', contact: 'Contact', menu: 'Open navigation', language: 'Español' },
     hero: {
       title: <>Systems for<br />critical missions</>,
       description: 'Ascentio designs, develops and operates high-availability systems for aerospace, industrial, energy and telecommunications sectors.',
@@ -12,7 +12,7 @@ export const copy = {
     },
     partners: {
       title: 'Trusted by industry leaders',
-      description: 'Organizations represented in Ascentio’s published work.',
+      description: 'Organizations that worked with Ascentio',
     },
     services: {
       title: 'Engineering to operation',
@@ -37,7 +37,7 @@ export const copy = {
     },
     history: {
       title: 'A Journey of Mission Success',
-      intro: 'Ascentio’s published history includes SAC-D, SAOCOM and NAOS mission work, alongside its expansion into Europe.',
+      intro: 'Our experience in the space sector is reflected in our participation in the SAC-D, SAOCOM, and NAOS missions, as well as in our growing presence and expansion in Europe.',
       upcomingLabel: 'Upcoming missions',
       entries: [
         { date: '2008', title: 'Company Foundation', detail: 'Ascentio begins its work in space engineering.' },
@@ -52,7 +52,7 @@ export const copy = {
     },
     groundSegment: {
       title: ['Advanced', 'Ground Segment'],
-      subtitle: 'Comprehensive Engineering across the Full Mission Lifecycle.',
+      label: 'Space Engineering',
       cards: [
         {
           title: 'Mission Control Centers',
@@ -116,6 +116,7 @@ export const copy = {
     work: {
       title: 'Technology in operation',
       intro: 'We are an Argentine technology-based company dedicated to the design, development and operation of complex high-availability systems for the aerospace, industrial, energy and telecommunications sectors.',
+      introAccent: 'Argentine',
       cases: [
         { name: 'EPEC', sector: 'Energy', description: 'We transform energy management with Smart Metering solutions that integrate the remote reading of 70,000 meters using cutting-edge technology.', image: '/images/works/epec.png' }, // taste-skill-ignore: project copy supplied verbatim by the user.
         { name: 'TELUS International', sector: 'Telecommunications', description: 'We drive technological excellence through the development of software for Canada’s largest telecommunications company.', image: '/images/works/telus.png' },
@@ -156,7 +157,7 @@ export const copy = {
     footer: { offices: 'Offices', navigate: 'Navigate', follow: 'Follow', more: 'More', careers: 'Careers', backTop: 'Back to top', quality: 'Quality mark reference', rights: 'Ascentio Technologies' },
   },
   es: {
-    nav: { services: 'Capacidades', work: 'Proyectos', about: 'Empresa', contact: 'Contacto', action: 'Iniciar conversación', menu: 'Abrir navegación', language: 'English' },
+    nav: { services: 'Servicios', space: 'Ingeniería espacial', work: 'Proyectos', about: 'Empresa', contact: 'Contacto', menu: 'Abrir navegación', language: 'English' },
     hero: {
       title: <>Sistemas para<br />misiones críticas</>,
       description: 'Ascentio diseña, desarrolla y opera sistemas de alta disponibilidad para los sectores aeroespacial, industrial, energético y de telecomunicaciones.',
@@ -166,7 +167,7 @@ export const copy = {
     },
     partners: {
       title: 'La confianza de líderes de la industria',
-      description: 'Organizaciones representadas en los trabajos publicados por Ascentio.',
+      description: 'Organizaciones que trabajaron con Ascentio',
     },
     services: {
       title: 'Ingeniería y operación',
@@ -191,7 +192,7 @@ export const copy = {
     },
     history: {
       title: 'Un recorrido de misiones exitosas',
-      intro: 'La trayectoria publicada de Ascentio incluye trabajo en las misiones SAC-D, SAOCOM y NAOS, junto con su expansión en Europa.',
+      intro: 'Nuestra experiencia en el sector espacial se refleja en nuestra participación en las misiones SAC-D, SAOCOM y NAOS, junto con nuestra proyección y presencia en Europa.',
       upcomingLabel: 'Misiones futuras',
       entries: [
         { date: '2008', title: 'Fundación de la empresa', detail: 'Ascentio inicia su trabajo en ingeniería espacial.' },
@@ -206,7 +207,7 @@ export const copy = {
     },
     groundSegment: {
       title: ['Segmento terreno', 'avanzado'],
-      subtitle: 'Ingeniería integral a lo largo de todo el ciclo de vida de la misión.',
+      label: 'Ingeniería espacial',
       cards: [
         {
           title: 'Centros de control de misión',
@@ -270,6 +271,7 @@ export const copy = {
     work: {
       title: 'Tecnología en operación',
       intro: 'Somos una empresa argentina de base tecnológica dedicada al diseño, desarrollo y operación de sistemas complejos de alta disponibilidad para los sectores aeroespacial, industrial, energético y de telecomunicaciones.',
+      introAccent: 'argentina',
       cases: [
         { name: 'EPEC', sector: 'Energía', description: 'Transformamos la gestión energética con soluciones de medición inteligente que integran la lectura remota de 70.000 medidores mediante tecnología de vanguardia.', image: '/images/works/epec.png' },
         { name: 'TELUS International', sector: 'Telecomunicaciones', description: 'Impulsamos la excelencia tecnológica mediante el desarrollo de software para la mayor empresa de telecomunicaciones de Canadá.', image: '/images/works/telus.png' },

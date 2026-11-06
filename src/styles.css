@@ -5202,3 +5202,28 @@ main p {
     --type-display:clamp(3.375rem,12vw,5.75rem)
   }
 }
+
+/* Space Engineering intro: label above a single-line title. */
+.ground-segment-intro {
+  grid-template-columns:1fr;
+  gap:clamp(16px,2vw,24px);
+  align-items:start
+}
+.ground-segment-intro .ground-segment-label {
+  max-width:none;
+  margin:0;
+  font-size:var(--type-label);
+  font-weight:400;
+  line-height:var(--leading-compact);
+  letter-spacing:.1em;
+  color:rgba(255,255,255,.72);
+  border-color:rgba(255,255,255,.28)
+}
+.ground-segment-intro h2 {
+  display:block;
+  max-width:none
+}
+
+.work-section .work-head .work-intro-accent {
+  color:var(--blue-dark)
+}
